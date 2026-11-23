@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
   devtools: { enabled: true },
 
+  // 监听 0.0.0.0：让同一局域网内的手机/其他电脑能直接访问看板
+  // （默认 localhost 只绑 ::1，外部连不上）
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000,
+  },
+
   // Reka UI 官方 Nuxt module：自动导入全部组件（reka-ui/nuxt）
   modules: ['reka-ui/nuxt'],
 
