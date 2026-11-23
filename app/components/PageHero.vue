@@ -9,25 +9,31 @@ withDefaults(defineProps<{
   slim?: boolean
 }>(), { slim: true })
 
-const { meta, obs, freshness } = usePriceData()
-const gen = computed(() => (meta.value.generated_at || '').replace('T', ' '))
+const { meta, obs, freshness, pending, reload } = usePriceData()
+const gen = computed(() => (meta.value.generated_at || '').replace('T', ' ').slice(0, 16))
 </script>
 
 <template>
   <header class="hero" :class="{ slim }">
-    <span class="bubble b1" /><span class="bubble b2" /><span class="bubble b3" />
     <div class="hero-main">
       <div class="brand">
         <span class="pill">{{ pill }}</span>
         <h1><span class="en">{{ en }}</span>{{ title }}</h1>
         <div class="sub">{{ sub }}</div>
       </div>
-      <div class="live"><span class="dot" />DATA FEED</div>
+      <div class="hero-aside">
+        <slot name="aside">
+          <div class="live"><span class="dot" />DATA FEED</div>
+        </slot>
+      </div>
     </div>
     <div class="hero-foot">
-      <span>📅 数据日期 <b>{{ meta.latest_date || '—' }}</b><span :class="freshness.cls">{{ freshness.text }}</span></span>
-      <span>🕒 生成 <b>{{ gen }}</b></span>
-      <span>📊 观测 <b>{{ meta.total_obs ?? obs.length }}</b> 条</span>
+      <span><em>数据日期</em><b>{{ meta.latest_date || '—' }}</b><span v-if="!pending" :class="freshness.cls">{{ freshness.text }}</span></span>
+      <span><em>生成</em><b>{{ gen || '—' }}</b></span>
+      <span><em>观测</em><b>{{ pending ? '—' : (meta.total_obs ?? obs.length) }}</b> 条</span>
+      <button class="refresh" type="button" :disabled="pending" @click="reload()">
+        {{ pending ? '读取中' : '刷新数据' }}
+      </button>
     </div>
   </header>
 </template>

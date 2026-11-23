@@ -3,7 +3,7 @@ import { usePriceData, shortMkt, fullMkt } from '~/composables/usePriceData'
 
 useHead({ title: '历史明细' })
 
-const { obs, meta } = usePriceData()
+const { obs, meta, pending } = usePriceData()
 
 const ALL = '__all__'
 const marketFilter = ref<string>(ALL)
@@ -72,8 +72,13 @@ const hist = computed(() => obs.value
 
         <div class="tbl-wrap">
           <table>
-            <thead><tr><th>日期</th><th>市场</th><th>品种</th><th>规格</th><th class="num">价格 元/kg</th><th class="num">约合 元/斤</th></tr></thead>
-            <tbody>
+            <thead><tr>
+              <th style="width:11%">日期</th><th style="width:26%">市场</th><th style="width:20%">品种</th>
+              <th style="width:23%">规格</th><th class="num" style="width:10%">价格 元/kg</th>
+              <th class="num" style="width:10%">约合 元/斤</th>
+            </tr></thead>
+            <TableSkeleton v-if="pending" :rows="10" :cols="6" />
+            <tbody v-else>
               <tr v-if="!hist.length">
                 <td colspan="6" class="empty-row">没有符合当前筛选的记录，试试放宽市场或品种条件</td>
               </tr>

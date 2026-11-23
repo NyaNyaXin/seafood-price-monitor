@@ -41,13 +41,34 @@ const pointInfo = computed(() => {
 const chartEl = ref<HTMLDivElement | null>(null)
 let chart: echarts.ECharts | null = null
 
+/**
+ * ECharts 拿不到 CSS 变量，必须显式给色值。
+ * 主题切换时重绘：暗色下全国线用浅色、辽宁线用亮蓝，否则近黑线在暗底上看不见。
+ */
+const SCHEMES = {
+  light: {
+    strong: '#0f1113', text: '#4a5054', muted: '#8b908f',
+    axis: '#0f1113', split: '#ecece4',
+    tipBg: '#ffffff', tipBorder: '#0f1113', tipShadow: 'rgba(15,17,19,.10)',
+    l1: '#0f1113', l2: '#1f4e79', fill: 'rgba(15,17,19,.05)',
+  },
+  dark: {
+    strong: '#e9edf0', text: '#a2abb2', muted: '#6b747b',
+    axis: '#3a4249', split: '#1f2428',
+    tipBg: '#14181b', tipBorder: '#3a4249', tipShadow: 'rgba(0,0,0,.55)',
+    l1: '#e9edf0', l2: '#63a4dd', fill: 'rgba(233,237,240,.06)',
+  },
+}
+const isDark = ref(false)
+
 async function drawChart() {
   const t = chosen.value
   if (!t || !hasSeries.value) return
   await nextTick()
   if (!chartEl.value) return
   if (!chart) chart = echarts.init(chartEl.value, undefined, { renderer: 'canvas' })
-  const palette = ['#0ea5e9', '#10b981']
+  const c = isDark.value ? SCHEMES.dark : SCHEMES.light
+  const palette = [c.l1, c.l2]
   const valid = t.x.map((d, i) => ({ d, cn: t.cn[i], ln: t.ln[i] }))
     .filter(r => r.cn != null || r.ln != null)
   const dates = valid.map(r => r.d)
@@ -59,43 +80,45 @@ async function drawChart() {
     // 动画被打断会停在首帧（表现为只画出第一个点）。30 点小图不需要动画。
     animation: false,
     backgroundColor: 'transparent', color: palette,
-    textStyle: { fontFamily: 'IBM Plex Mono, monospace', color: '#5b6b7c' },
+    textStyle: { fontFamily: 'JetBrains Mono, monospace', color: c.text },
     title: { text: t.name + ' · 30天价格走势', left: 'center', top: 0,
-      textStyle: { fontSize: 13, color: '#1f2a37', fontWeight: 700 } },
-    tooltip: { trigger: 'axis', backgroundColor: '#ffffff', borderColor: '#d6e3e6', borderWidth: 1,
-      padding: [10, 13], textStyle: { color: '#1f2a37', fontFamily: 'IBM Plex Mono, monospace', fontSize: 12 },
-      extraCssText: 'box-shadow:0 8px 24px rgba(31,42,55,.14);border-radius:10px;',
+      textStyle: { fontSize: 13, color: c.strong, fontWeight: 700,
+        fontFamily: 'Microsoft YaHei, PingFang SC, sans-serif' } },
+    tooltip: { trigger: 'axis', backgroundColor: c.tipBg, borderColor: c.tipBorder, borderWidth: 1,
+      padding: [9, 12], textStyle: { color: c.strong, fontFamily: 'JetBrains Mono, monospace', fontSize: 11.5 },
+      extraCssText: `box-shadow:4px 4px 0 ${c.tipShadow};border-radius:0;`,
       valueFormatter: (v: unknown) => {
         const n = typeof v === 'number' ? v : Number(v)
         return Number.isFinite(n) ? `${n.toFixed(2)} 元/kg · ${(n / 2).toFixed(2)} 元/斤` : '—'
       } },
-    legend: { type: 'plain', top: 28, textStyle: { color: '#5b6b7c', fontSize: 11 },
+    legend: { type: 'plain', top: 30, itemWidth: 16, itemHeight: 2, itemGap: 18,
+      textStyle: { color: c.text, fontSize: 11, fontFamily: 'Microsoft YaHei, sans-serif' },
       data: [...(hasCn ? ['全国'] : []), ...(hasLn ? ['辽宁'] : [])] },
-    grid: { left: 56, right: 26, top: 64, bottom: 56 },
+    grid: { left: 52, right: 22, top: 66, bottom: 52 },
     xAxis: { type: 'category', data: dates, boundaryGap: false,
       // 只显示月-日，避免完整日期挤在一起；完整日期留在 tooltip
-      axisLabel: { color: '#94a3b8', fontSize: 10.5, hideOverlap: true,
+      axisLabel: { color: c.muted, fontSize: 10.5, hideOverlap: true,
         formatter: (v: string) => v.slice(5) },
-      axisLine: { lineStyle: { color: '#d6e3e6' } }, axisTick: { show: false } },
+      axisLine: { lineStyle: { color: c.axis, width: 1 } }, axisTick: { show: false } },
     yAxis: { type: 'value', name: '元/kg', scale: true,
-      nameTextStyle: { color: '#94a3b8', fontSize: 10, padding: [0, 0, 0, -34] },
-      axisLabel: { color: '#94a3b8', fontSize: 10.5 }, axisLine: { show: false },
-      splitLine: { lineStyle: { color: 'rgba(31,42,55,.06)' } } },
+      nameTextStyle: { color: c.muted, fontSize: 10, padding: [0, 0, 0, -32] },
+      axisLabel: { color: c.muted, fontSize: 10.5 }, axisLine: { show: false },
+      splitLine: { lineStyle: { color: c.split, type: 'solid' } } },
     dataZoom: [
-      { type: 'slider', height: 16, bottom: 12, start: 0, end: 100,
-        borderColor: '#d6e3e6', fillerColor: 'rgba(16,185,129,.10)',
-        handleStyle: { color: '#10b981', borderColor: '#10b981' },
-        moveHandleStyle: { color: '#10b981' },
-        dataBackground: { lineStyle: { color: '#0ea5e9', opacity: .4 }, areaStyle: { color: '#10b981', opacity: .10 } },
-        textStyle: { color: '#94a3b8', fontSize: 10 } },
+      { type: 'slider', height: 14, bottom: 10, start: 0, end: 100,
+        borderColor: c.axis, fillerColor: c.fill,
+        handleStyle: { color: c.strong, borderColor: c.strong },
+        moveHandleStyle: { color: c.strong },
+        dataBackground: { lineStyle: { color: c.l2, opacity: .5 }, areaStyle: { color: c.l1, opacity: .07 } },
+        textStyle: { color: c.muted, fontSize: 9.5, fontFamily: 'JetBrains Mono, monospace' } },
       { type: 'inside' }],
     series: [
       { name: '全国', type: 'line', data: valid.map(r => r.cn), connectNulls: false,
-        smooth: false, symbol: 'circle', symbolSize: 5,
-        lineStyle: { width: 2.4, color: palette[0] }, itemStyle: { color: palette[0] } },
+        smooth: false, symbol: 'circle', symbolSize: 4,
+        lineStyle: { width: 2, color: palette[0] }, itemStyle: { color: palette[0] } },
       { name: '辽宁', type: 'line', data: valid.map(r => r.ln), connectNulls: false,
-        smooth: false, symbol: 'circle', symbolSize: 5,
-        lineStyle: { width: 2.4, color: palette[1] }, itemStyle: { color: palette[1] } },
+        smooth: false, symbol: 'circle', symbolSize: 4,
+        lineStyle: { width: 2, color: palette[1] }, itemStyle: { color: palette[1] } },
     ],
   }, true)
   // 首帧高度可能受上方 guide→chart 切换影响，强制校正一次
@@ -108,8 +131,25 @@ watch(productId, () => {
 })
 
 function onResize() { chart?.resize() }
-onMounted(() => window.addEventListener('resize', onResize))
-onUnmounted(() => { window.removeEventListener('resize', onResize); chart?.dispose(); chart = null })
+
+let mql: MediaQueryList | null = null
+function onScheme(e: MediaQueryListEvent) {
+  isDark.value = e.matches
+  if (productId.value) nextTick(drawChart)
+}
+
+onMounted(() => {
+  mql = window.matchMedia('(prefers-color-scheme: dark)')
+  isDark.value = mql.matches
+  window.addEventListener('resize', onResize)
+  mql.addEventListener('change', onScheme)
+})
+onUnmounted(() => {
+  window.removeEventListener('resize', onResize)
+  mql?.removeEventListener('change', onScheme)
+  chart?.dispose()
+  chart = null
+})
 </script>
 
 <template>
@@ -140,7 +180,7 @@ onUnmounted(() => { window.removeEventListener('resize', onResize); chart?.dispo
         </div>
 
         <div v-if="!productId" class="chart-guide">
-          <div class="big">📈</div>
+          <div class="big">30<small>天</small></div>
           <h3>选择一个品种，查看它的 30 天价格曲线</h3>
           <p>平台提供现成的 30 天历史序列（全国 + 辽宁双线），无需等待每日采集累积。选中后此处只展示该品种的走势。</p>
           <div class="steps">

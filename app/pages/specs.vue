@@ -3,7 +3,7 @@ import { usePriceData } from '~/composables/usePriceData'
 
 useHead({ title: '全国品类规格' })
 
-const { meta, specs } = usePriceData()
+const { meta, specs, pending } = usePriceData()
 
 const region = ref<'cn' | 'ln'>('cn')
 const keyword = ref('')
@@ -56,9 +56,10 @@ const groups = computed(() => {
       <div class="card-body">
         <div class="cover-bar">
           <span class="lbl">数据覆盖</span>
-          <div class="track"><div class="fill" :style="{ width: coverWidth }" /></div>
-          <span class="val">{{ coverText }}</span>
-          <span class="miss">缺 {{ missing.length }} 种：{{ missing.join('、') }}</span>
+          <div class="track"><div class="fill" :style="{ width: pending ? '0%' : coverWidth }" /></div>
+          <span v-if="pending" class="sk short" style="width:132px" />
+          <span v-else class="val">{{ coverText }}</span>
+          <span v-if="!pending" class="miss">缺 {{ missing.length }} 种：{{ missing.join('、') }}</span>
         </div>
         <div class="nation-note">
           辽宁本地市场分规格报送不全（多数只有 1~2 档）。这里展示<strong>全国各市场的分规格报价</strong>作参考——
@@ -76,24 +77,41 @@ const groups = computed(() => {
           <span class="hint" style="white-space:nowrap">{{ rows.length }} 档</span>
         </div>
 
-        <div v-if="!rows.length" class="empty-inline">该区域暂无分规格报送数据</div>
-        <div v-for="g in groups" :key="g.cat" class="cat-group">
-          <div class="cat-title">{{ g.cat }} <span class="n">{{ g.count }} 个品种</span></div>
-          <div class="spec-grid">
-            <template v-for="p in g.products" :key="p.name">
-              <div v-for="(it, i) in [...p.items].sort((a, b) => b.price - a.price)" :key="it.product_id + it.spec_name" class="spec-item">
-                <div>
-                  <span class="nm">
-                    {{ p.name }}
-                    <span v-if="i === 0" class="region-tag" :class="region">{{ region === 'cn' ? '全国' : '辽宁' }}</span>
-                  </span>
-                  <span class="sp">{{ it.spec_name }}</span>
-                </div>
-                <div class="pr"><b>{{ it.price.toFixed(2) }}</b><span class="jin">¥{{ (it.price / 2).toFixed(2) }}/斤</span></div>
-              </div>
-            </template>
+        <div v-if="pending" class="spec-grid">
+          <div v-for="n in 8" :key="'sk' + n" class="spec-card">
+            <div class="spec-card-head">
+              <span class="sk short" style="width:52%" />
+              <span class="sk short" style="width:14%;margin-left:auto" />
+            </div>
+            <div v-for="m in 3" :key="m" class="spec-line">
+              <span class="sk short" :style="{ width: (30 + m * 5) + '%' }" />
+              <span class="sk short" style="width:22%" />
+            </div>
           </div>
         </div>
+        <template v-else>
+          <div v-if="!rows.length" class="empty-inline">该区域暂无分规格报送数据</div>
+          <div v-for="g in groups" :key="g.cat" class="cat-group">
+            <div class="cat-title">{{ g.cat }} <span class="n">{{ g.count }} 个品种</span></div>
+            <div class="spec-grid">
+              <div v-for="p in g.products" :key="p.name" class="spec-card">
+                <div class="spec-card-head">
+                  <span class="nm">{{ p.name }}</span>
+                  <span class="region-tag" :class="region">{{ region === 'cn' ? '全国' : '辽宁' }}</span>
+                  <span class="cnt">{{ p.items.length }} 档</span>
+                </div>
+                <div
+                  v-for="it in [...p.items].sort((a, b) => b.price - a.price)"
+                  :key="it.product_id + it.spec_name"
+                  class="spec-line"
+                >
+                  <span class="sp">{{ it.spec_name }}</span>
+                  <span class="pr"><b>{{ it.price.toFixed(2) }}</b><i>¥{{ (it.price / 2).toFixed(2) }}</i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
       </div>
     </section>
 

@@ -10,7 +10,7 @@ const route = useRoute()
 
 <template>
   <nav class="nav">
-    <NuxtLink class="nav-brand" to="/"><i>🌊</i>潮汐 <span>TIDE</span></NuxtLink>
+    <NuxtLink class="nav-brand" to="/"><i />潮汐 <span>TIDE</span></NuxtLink>
     <div class="nav-links">
       <NuxtLink
         v-for="l in links"

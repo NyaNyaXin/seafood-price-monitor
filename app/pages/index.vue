@@ -3,7 +3,7 @@ import { usePriceData, shortMkt, fullMkt, marketTier, changeAt, changeDaysAgo } 
 
 useHead({ title: '潮汐 TIDE · 沈阳水产鲜度日报' })
 
-const { meta, latest, seriesMap, THR } = usePriceData()
+const { meta, latest, seriesMap, THR, pending } = usePriceData()
 
 // 范围分层：core=沈阳两家，ln=辽宁（core+province），national=全国参考市场
 const RANGE_ALL = '__all__'
@@ -76,6 +76,18 @@ const todayRows = computed(() => {
 })
 
 const marketCount = computed(() => new Set(todayRows.value.map(r => r.market_id)).size)
+
+/** 当日异动最大的一条（按 |d1| 取），无对比数据时为 null */
+const topMover = computed(() => {
+  let best: (typeof todayRows.value)[number] | null = null
+  let bestAbs = 0
+  for (const r of todayRows.value) {
+    if (r.d1 == null) continue
+    const a = Math.abs(r.d1)
+    if (a > bestAbs) { bestAbs = a; best = r }
+  }
+  return best
+})
 // 不用 SelectValue 自动解析（列表项不在 SelectViewport 内时它取不到文本）
 const selectedMarketLabel = computed(() => {
   if (marketFilter.value === RANGE_ALL) return '全部市场'
@@ -90,6 +102,10 @@ function chgClass(v: number | null) {
   if (v == null) return 'chg flat'
   return 'chg ' + (v > 0 ? 'up' : v < 0 ? 'down' : 'flat')
 }
+function feedCls(v: number | null) {
+  if (v == null) return 'flat'
+  return v > 0 ? 'up' : v < 0 ? 'down' : 'flat'
+}
 function chgText(v: number | null) {
   if (v == null) return '—'
   return (v > 0 ? '+' : '') + v.toFixed(1) + '%'
@@ -98,31 +114,52 @@ function chgText(v: number | null) {
 
 <template>
   <div>
+    <div v-if="pending" class="loadbar" />
     <PageHero
       :slim="false"
       pill="FRESH DAILY · NO.001"
       en="TIDE / SEAFOOD PRICE DAILY"
       title="潮汐 · 水产鲜度日报"
       sub="全国水产技术推广总站「水产时价云」官方数据 · 沈阳核心 + 辽宁 + 全国 59 个批发市场 · 仅冷冻水产"
-    />
+    >
+      <template #aside>
+        <div class="feed">
+          <div class="feed-head"><span class="dot" />当日异动 · TOP MOVER</div>
+          <template v-if="topMover">
+            <div class="feed-main">
+              <span class="feed-name">{{ topMover.product_name }}</span>
+              <b class="feed-chg" :class="feedCls(topMover.d1)">{{ chgText(topMover.d1) }}</b>
+            </div>
+            <div class="feed-sub">{{ topMover.market }} · {{ topMover.spec }} · {{ topMover.price.toFixed(2) }} 元/kg</div>
+          </template>
+          <template v-else>
+            <div class="feed-main"><span class="feed-name">今日暂无异动</span></div>
+            <div class="feed-sub">同序列需两次观测才能算出涨跌</div>
+          </template>
+        </div>
+      </template>
+    </PageHero>
 
-    <div class="stats">
-      <div class="stat">
-        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></div>
-        <div class="lbl">当日报价 / QUOTES</div><div class="num">{{ todayRows.length }}</div>
-        <div class="foot">{{ marketCount }} 个市场 · {{ marketFilter === RANGE_ALL ? rangeLabel[range] : selectedMarketLabel }}</div>
+    <div class="tape">
+      <div class="tape-cell">
+        <span class="k">当日报价 / Quotes</span>
+        <b class="v"><span v-if="pending" class="sk sk-num" /><AnimatedNumber v-else :value="todayRows.length" /></b>
+        <span class="u"><span v-if="pending" class="sk short" style="width:72%" /><template v-else>{{ marketCount }} 个市场 · {{ marketFilter === RANGE_ALL ? rangeLabel[range] : selectedMarketLabel }}</template></span>
       </div>
-      <div class="stat">
-        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg></div>
-        <div class="lbl">品种规格 / SERIES</div><div class="num">{{ seriesCount }}</div><div class="foot">当前范围 · 在跟踪的曲线</div>
+      <div class="tape-cell">
+        <span class="k">品种规格 / Series</span>
+        <b class="v"><span v-if="pending" class="sk sk-num" /><AnimatedNumber v-else :value="seriesCount" /></b>
+        <span class="u">当前范围在跟踪的曲线</span>
       </div>
-      <div class="stat">
-        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg></div>
-        <div class="lbl">上涨 / ADVANCING</div><div class="num">{{ upCnt }}</div><div class="foot">较上一观测</div>
+      <div class="tape-cell" :class="{ hot: upCnt > 0 }">
+        <span class="k">上涨 / Advancing</span>
+        <b class="v"><span v-if="pending" class="sk sk-num" /><AnimatedNumber v-else :value="upCnt" /></b>
+        <span class="u">较上一观测 · 红 = 涨</span>
       </div>
-      <div class="stat">
-        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 7l6 6 4-4 8 8"/><path d="M21 17v-6h-6"/></svg></div>
-        <div class="lbl">下跌 / DECLINING</div><div class="num">{{ downCnt }}</div><div class="foot">较上一观测</div>
+      <div class="tape-cell" :class="{ cool: downCnt > 0 }">
+        <span class="k">下跌 / Declining</span>
+        <b class="v"><span v-if="pending" class="sk sk-num" /><AnimatedNumber v-else :value="downCnt" /></b>
+        <span class="u">较上一观测 · 绿 = 跌</span>
       </div>
     </div>
 
@@ -168,14 +205,21 @@ function chgText(v: number | null) {
         <div class="tbl-wrap">
           <table>
             <thead><tr>
-              <th>市场</th><th>品种</th><th>规格</th>
-              <th class="num">报价 元/kg</th><th class="num">约合 元/斤</th><th class="num">较上期</th><th class="num">较7天前</th>
+              <th style="width:17%">市场</th><th style="width:17%">品种</th><th style="width:28%">规格</th>
+              <th class="num" style="width:11%">报价 元/kg</th><th class="num" style="width:9%">约合 元/斤</th>
+              <th class="num" style="width:9%">较上期</th><th class="num" style="width:9%">较7天前</th>
             </tr></thead>
-            <tbody>
+            <TableSkeleton v-if="pending" :rows="8" :cols="7" />
+            <tbody v-else>
               <tr v-if="!todayRows.length">
                 <td colspan="7" class="empty-row">没有符合当前筛选的报价，试试放宽市场或品种条件</td>
               </tr>
-              <tr v-for="(r, i) in todayRows" :key="i" :class="{ alert: r.alert }">
+              <tr
+                v-for="(r, i) in todayRows"
+                :key="i"
+                :class="{ alert: r.alert, enter: i < 14 }"
+                :style="i < 14 ? { animationDelay: i * 18 + 'ms' } : undefined"
+              >
                 <td><span class="mkt" :class="{ b: r.market_id === 538 }" :title="r.marketFull">{{ r.market }}</span></td>
                 <td class="prod">{{ r.product_name }}</td>
                 <td class="spec">{{ r.spec }}</td>

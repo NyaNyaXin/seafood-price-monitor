@@ -10,6 +10,6 @@ const { error } = usePriceData()
     <div v-if="error" class="db-error">
       数据加载失败：{{ (error as any)?.message || error }}
     </div>
-    <NuxtPage />
+    <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
   </div>
 </template>

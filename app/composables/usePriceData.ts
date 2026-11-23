@@ -134,7 +134,20 @@ export function usePriceData() {
 
   const meta = computed(() => data.value?.meta || ({} as PriceMeta))
   const obs = computed(() => data.value?.observations || [])
-  const specs = computed(() => data.value?.spec_snapshot || [])
+  /**
+   * spec_snapshot 按天留存（唯一键含 snap_date），接口返回全部日期。
+   * 展示只看每个区域最新一次快照，否则同一规格会随天数重复叠加。
+   */
+  const specs = computed<SpecRow[]>(() => {
+    const raw = data.value?.spec_snapshot || []
+    if (!raw.length) return []
+    const newest = new Map<string, string>()
+    for (const s of raw) {
+      const cur = newest.get(s.region)
+      if (!cur || s.snap_date > cur) newest.set(s.region, s.snap_date)
+    }
+    return raw.filter((s) => s.snap_date === newest.get(s.region))
+  })
   const trends = computed(() => data.value?.trends || {})
   const THR = computed(() => meta.value.alert_threshold || 0.1)
 
@@ -167,8 +180,8 @@ export function usePriceData() {
     const d = meta.value.latest_date
     if (!d) return { text: '—', cls: 'fresh' }
     const days = Math.floor((Date.now() - new Date(d + 'T00:00:00').getTime()) / 86400000) - 1
-    if (days > (meta.value.stale_days ?? 3)) return { text: `⚠ 已 ${days} 天未更新`, cls: 'fresh bad' }
-    if (days >= 1) return { text: `⏳ 滞后 ${days} 天`, cls: 'fresh warn' }
+    if (days > (meta.value.stale_days ?? 3)) return { text: `已 ${days} 天未更新`, cls: 'fresh bad' }
+    if (days >= 1) return { text: `滞后 ${days} 天`, cls: 'fresh warn' }
     return { text: '数据新鲜', cls: 'fresh' }
   })
 
