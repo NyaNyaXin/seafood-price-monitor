@@ -19,6 +19,23 @@ const productOptions = computed(() =>
 const chosen = computed(() => (productId.value ? trends.value[+productId.value] ?? null : null))
 const hasSeries = computed(() => !!(chosen.value?.x?.length))
 
+/**
+ * 实际数据区间：平台对长期无报送的品种（如进口带鱼）会返回很久以前的 30 条，
+ * 标题写「30天」会误导，这里标出真实首末日期与点数，跨度超 45 天给警示。
+ */
+const pointInfo = computed(() => {
+  const t = chosen.value
+  if (!t) return { text: '—', count: 0, stale: false }
+  const pts = t.x
+    .map((d, i) => ({ d, has: t.cn[i] != null || t.ln[i] != null }))
+    .filter((p) => p.has)
+  const first = pts[0]
+  const last = pts[pts.length - 1]
+  if (!first || !last) return { text: '—', count: 0, stale: false }
+  const span = (new Date(last.d + 'T00:00:00').getTime() - new Date(first.d + 'T00:00:00').getTime()) / 86400000
+  return { text: `${first.d} ~ ${last.d}`, count: pts.length, stale: span > 45 }
+})
+
 // ECharts —— 静态引入：本页是独立路由 chunk，只有访问 /trend 才加载，
 // 体积与动态 import 相当，但不会出现「import() 请求挂起、回调永不返回」的坑。
 const chartEl = ref<HTMLDivElement | null>(null)
@@ -137,6 +154,11 @@ onUnmounted(() => { window.removeEventListener('resize', onResize); chart?.dispo
           <div v-if="!hasSeries" class="empty"><div class="wave">〜 〜 〜</div><div>该品种暂无历史序列</div></div>
         </div>
         <div class="chart-note">
+          <span class="range-chip" :class="{ warn: pointInfo.stale }">
+            数据区间 {{ pointInfo.text }} · 共 {{ pointInfo.count }} 个有效点
+            <template v-if="pointInfo.stale">· 该品种近期无报送，展示的是历史片段</template>
+          </span>
+          <br />
           全国线为平台全国报送均价，辽宁线为辽宁报送均价（平台现成 30 天序列，非本系统自攒）。断点=当日该区无报送。口径为平台聚合价，与首页市场成交报价不同；曲线不按单个市场拆分。
         </div>
       </div>

@@ -136,6 +136,9 @@ select:hover,select:focus{border-color:var(--mint);background-color:#fff;box-sha
   background:var(--muted)}
 .empty .wave{font-size:26px;letter-spacing:5px;color:var(--mint);opacity:.55}
 .chart-note{font-size:11.5px;color:var(--ink3);margin-top:12px;line-height:1.7}
+.range-chip{display:inline-block;margin-bottom:6px;padding:4px 10px;border-radius:20px;
+  background:var(--muted);border:1px solid var(--line2);font-family:var(--mono);font-size:11px}
+.range-chip.warn{background:#fffbeb;border-color:#fcd34d;color:#92400e}
 
 /* ---------- Table ---------- */
 .tbl-wrap{overflow-x:auto;border-radius:12px}

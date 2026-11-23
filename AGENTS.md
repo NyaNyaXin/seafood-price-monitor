@@ -133,7 +133,11 @@ SQL 占位符写 psycopg2 原生形式：位置参数 `%s`、命名参数 `%(nam
 - **Reka UI 无样式**：组件只给行为，样式在 `app/assets/css/main.css` 里自己写。新增组件记得补样式。
 - `SelectItem` **不允许空字符串 value**（Radix 限制）——用哨兵值（如 `'__all__'`），别传 `''`。
 - **ECharts 用静态 `import * as echarts from 'echarts'`**（写在 `app/pages/trend.vue` 顶部）。该页是独立路由 chunk，只有访问 `/trend` 才加载，体积与动态 import 相当。**不要改回 `await import('echarts')`**——实测会在页面切换时出现 import 请求挂起、回调永不返回，图表永久空白（2026-11-23 排查记录）。
-- **Reka UI 的 `SelectViewport` 不要用**：它会让长列表被 `SelectContent` 的内联 `max-height` 裁切且无法滚动。直接把 `<SelectItem>` 放进 `SelectContent`，靠 `.ui-select-content` 的 `max-height + overflow-y:auto` 滚动（见 `main.css`）；触发器也不要用 `SelectValue`（拿不到选中项文本），用 computed 渲染 label（参考 `trend.vue` 的 `selectedLabel`）。
+- **下拉一律用 `app/components/SearchSelect.vue`**（Reka Combobox 封装，支持输入过滤、自动回填 label、`allLabel` 注入「全部」项）。不要再手写 `SelectRoot` 组合——它不支持搜索，且长列表会被裁切。`SearchSelect` 的输入框聚焦时会全选，直接在原值上改写。
+- **筛选控件统一 38px 高**：`.ui-select` / `.ui-combo` / `.seg` 都是 `height:38px`，同一行必须等高，改样式时别只改一个。
+- **`html{scrollbar-gutter:stable}` 不能删**：下拉浮层会触发滚动锁定，没有这行页面会因纵向滚动条出现/消失而左右抖动。
+- Reka UI 的 `SelectViewport` 不要用：它会让长列表被 `SelectContent` 的内联 `max-height` 裁切且无法滚动。若必须用原生 Select，把 `<SelectItem>` 直接放进 `SelectContent`，靠 `.ui-select-content` 的 `max-height + overflow-y:auto` 滚动。
+- 表格筛选结果为空时要有 `.empty-row` 提示行（`colspan` 占满），否则用户以为页面坏了。
 - 数据派生统一放 `usePriceData.ts`（`seriesMap`/`series`/`changeAt`/`THR`/`marketTier`/`tidyMarket`…），页面只做展示，别在页面里重算涨跌。
 - **市场显示走 `shortMkt(id, meta)`**：沈阳两家有固定简称，其余按名称清洗截断（全名放 `title`）。不要在市场列硬编码某家市场的样式或名称。
 - `meta.market_tiers` 是「沈阳/辽宁/全国参考」筛选的依据，别在前端另写一份市场归属表。
