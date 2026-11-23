@@ -1,0 +1,22 @@
+[Unit]
+Description=Seafood price dashboard (Nuxt / Nitro, reads PostgreSQL directly)
+Documentation=file:///srv/seafood-price-monitor/deploy/README.md
+After=network.target postgresql.service
+Wants=network.target
+
+[Service]
+Type=simple
+User=seafood
+Group=seafood
+WorkingDirectory=/srv/seafood-price-monitor
+EnvironmentFile=/etc/seafood-price.env
+Environment=NODE_ENV=production
+# 只监听回环，由 Nginx / Caddy 反代对外
+Environment=HOST=127.0.0.1
+Environment=PORT=3000
+ExecStart=/usr/bin/node .output/server/index.mjs
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

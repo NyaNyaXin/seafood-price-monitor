@@ -1,0 +1,15 @@
+[Unit]
+Description=Seafood price collector (one-shot fetch into PostgreSQL)
+Documentation=file:///srv/seafood-price-monitor/deploy/README.md
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=seafood
+Group=seafood
+WorkingDirectory=/srv/seafood-price-monitor
+EnvironmentFile=/etc/seafood-price.env
+# 采集约 3 分钟（29 个品种含慢查询补偿轮），留足超时
+ExecStart=/srv/seafood-price-monitor/.venv/bin/python scripts/fetch.py --verbose
+TimeoutStartSec=600

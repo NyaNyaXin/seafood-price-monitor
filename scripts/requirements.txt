@@ -1,0 +1,5 @@
+# 采集端 Python 依赖（建议在 venv 中安装）
+#   python -m venv .venv
+#   .venv\Scripts\pip install -r scripts/requirements.txt      # Windows
+#   .venv/bin/pip install -r scripts/requirements.txt          # Linux
+psycopg2-binary>=2.9.9

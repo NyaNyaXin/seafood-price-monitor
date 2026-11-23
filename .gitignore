@@ -1,0 +1,36 @@
+# Nuxt
+.nuxt/
+.output/
+.data/
+node_modules/
+dist/
+
+# 日志与缓存
+logs/*.log
+__pycache__/
+*.pyc
+.DS_Store
+
+# 包管理器（统一 pnpm：npm/yarn 的锁文件不入库，本地 store 也不入库）
+package-lock.json
+yarn.lock
+npm-shrinkwrap.json
+.pnpm-store/
+pnpm-debug.log*
+
+# 本地环境变量（数据库连接等，不要提交）
+.env
+.env.*
+!.env.example
+
+# 采集数据与归档（真相源在 PostgreSQL，本地只留 CSV 导出与归档备份）
+# 种子数据在 scripts/seed/ 下，随仓库和镜像分发，不在此列
+data/
+
+# WorkBuddy 项目数据（工作日志/记忆，纯本地）
+.workbuddy/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

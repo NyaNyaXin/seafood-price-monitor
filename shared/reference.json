@@ -1,0 +1,409 @@
+{
+  "_comment": "采集端（scripts/，Python）与服务端（server/，Node）共用的参考数据。改品种清单/冻品判定/市场白名单只改这里，两端同时生效。markets 的 tier：core=沈阳核心、province=辽宁其他、national=全国参考。",
+  "frozen_products": [
+    {
+      "id": 330,
+      "name": "大黄鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 331,
+      "name": "小黄鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 332,
+      "name": "带鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 334,
+      "name": "马鲛鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 344,
+      "name": "银鲳",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 365,
+      "name": "鲽鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 367,
+      "name": "鲐鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 368,
+      "name": "竹荚鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 409,
+      "name": "鮸鱼（鳘鱼）",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 413,
+      "name": "金枪鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 414,
+      "name": "进口黄鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 415,
+      "name": "进口带鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 417,
+      "name": "进口鲳鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 419,
+      "name": "进口鳕鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 425,
+      "name": "进口鮸鱼",
+      "category": "海水鱼类"
+    },
+    {
+      "id": 468,
+      "name": "中国对虾",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 484,
+      "name": "日本对虾",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 485,
+      "name": "斑节对虾",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 486,
+      "name": "南美白对虾",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 492,
+      "name": "梭子蟹",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 501,
+      "name": "北极甜虾",
+      "category": "海水甲壳类"
+    },
+    {
+      "id": 519,
+      "name": "扇贝",
+      "category": "海水贝类"
+    },
+    {
+      "id": 549,
+      "name": "扇贝柱",
+      "category": "海水贝类"
+    },
+    {
+      "id": 679,
+      "name": "虾夷扇贝",
+      "category": "海水贝类"
+    },
+    {
+      "id": 680,
+      "name": "海湾扇贝",
+      "category": "海水贝类"
+    },
+    {
+      "id": 554,
+      "name": "海蜇皮",
+      "category": "海水头足类"
+    },
+    {
+      "id": 555,
+      "name": "海蜇头",
+      "category": "海水头足类"
+    },
+    {
+      "id": 556,
+      "name": "墨鱼",
+      "category": "海水头足类"
+    },
+    {
+      "id": 557,
+      "name": "鱿鱼",
+      "category": "海水头足类"
+    }
+  ],
+  "markets": {
+    "442": {
+      "name": "厦门市水产品批发市场",
+      "tier": "national"
+    },
+    "444": {
+      "name": "福建省三明市鲜活水产品批发市场",
+      "tier": "national"
+    },
+    "446": {
+      "name": "江西南昌市水产品综合交易批发市场",
+      "tier": "national"
+    },
+    "448": {
+      "name": "山东省王尔庄海蜇批发市场",
+      "tier": "national"
+    },
+    "450": {
+      "name": "山东省威海水产品批发市场",
+      "tier": "national"
+    },
+    "453": {
+      "name": "湖北省武汉市白沙洲农副产品大市场",
+      "tier": "national"
+    },
+    "462": {
+      "name": "广州水产集团鱼市场经营管理有限公司",
+      "tier": "national"
+    },
+    "466": {
+      "name": "广东省江门水产（咸鱼）批发市场",
+      "tier": "national"
+    },
+    "473": {
+      "name": "四川省内江市水产批发市场",
+      "tier": "national"
+    },
+    "474": {
+      "name": "福州名成水产品市场有限公司",
+      "tier": "national"
+    },
+    "475": {
+      "name": "四川成都农产品中心批发市场水产分场",
+      "tier": "national"
+    },
+    "480": {
+      "name": "乌鲁木齐北园春果业经营有限责任公司",
+      "tier": "national"
+    },
+    "481": {
+      "name": "浙江省温州浙福边贸水产城（苍南）",
+      "tier": "national"
+    },
+    "482": {
+      "name": "山东省青岛市城阳蔬菜水产品批发市场有限公司",
+      "tier": "national"
+    },
+    "483": {
+      "name": "北京京丰岳各庄农副产品批发市场中心",
+      "tier": "national"
+    },
+    "484": {
+      "name": "山西太原五龙口海鲜市场",
+      "tier": "national"
+    },
+    "490": {
+      "name": "河北唐山市君瑞联合农贸市场有限公司",
+      "tier": "national"
+    },
+    "493": {
+      "name": "辽宁省东港黄海水产品市场",
+      "tier": "province"
+    },
+    "495": {
+      "name": "辽宁省盘山县胡家河蟹市场",
+      "tier": "province"
+    },
+    "498": {
+      "name": "江苏凌家塘市场发展有限公司",
+      "tier": "national"
+    },
+    "501": {
+      "name": "江苏省苏州市南环桥农副产品批发市场",
+      "tier": "national"
+    },
+    "508": {
+      "name": "慈溪市长三角市场群投资有限公司慈溪农贸城分公司",
+      "tier": "national"
+    },
+    "509": {
+      "name": "浙江省台州市华东水产品交易有限公司",
+      "tier": "national"
+    },
+    "510": {
+      "name": "浙江松门水产品批发市场",
+      "tier": "national"
+    },
+    "513": {
+      "name": "大连盛兴水产品交易市场有限公司",
+      "tier": "province"
+    },
+    "516": {
+      "name": "浙江省中国舟山国际水产城",
+      "tier": "national"
+    },
+    "519": {
+      "name": "安徽省合肥市周谷堆水产品批发市场",
+      "tier": "national"
+    },
+    "528": {
+      "name": "北京大红门京深海鲜批发市场有限公司",
+      "tier": "national"
+    },
+    "537": {
+      "name": "辽宁省沈阳水产品批发市场",
+      "tier": "core"
+    },
+    "538": {
+      "name": "辽宁省前当堡鲜鱼批发市场",
+      "tier": "core"
+    },
+    "540": {
+      "name": "吉林省长春市光复路水产批发市场",
+      "tier": "national"
+    },
+    "541": {
+      "name": "吉林省延吉市西市场",
+      "tier": "national"
+    },
+    "583": {
+      "name": "中国供销上饶农产品交易城",
+      "tier": "national"
+    },
+    "594": {
+      "name": "长沙马王堆农产品股份有限公司海鲜水产批发市场",
+      "tier": "national"
+    },
+    "603": {
+      "name": "重庆市乐邦水产品有限公司",
+      "tier": "national"
+    },
+    "604": {
+      "name": "重庆市渝北区三亚湾水产品综合交易市场",
+      "tier": "national"
+    },
+    "609": {
+      "name": "普洱天恒市场经营公司五一市场",
+      "tier": "national"
+    },
+    "617": {
+      "name": "甘肃省兰州市绿色食品市场",
+      "tier": "national"
+    },
+    "627": {
+      "name": "南京市众彩批发市场有限公司",
+      "tier": "national"
+    },
+    "633": {
+      "name": "两湖绿谷淡水鱼市场",
+      "tier": "national"
+    },
+    "650": {
+      "name": "石臼所海鲜农贸市场",
+      "tier": "national"
+    },
+    "654": {
+      "name": "攀枝花攀达水产批发市场有限公司",
+      "tier": "national"
+    },
+    "658": {
+      "name": "重庆市涪陵区新大兴国际农产品批发市场",
+      "tier": "national"
+    },
+    "661": {
+      "name": "江西省萍乡市城南水产批发市场",
+      "tier": "national"
+    },
+    "667": {
+      "name": "上海江杨水产品批发市场经营管理有限公司",
+      "tier": "national"
+    },
+    "672": {
+      "name": "湖州菱湖乌板桥水产品批发市场",
+      "tier": "national"
+    },
+    "673": {
+      "name": "辽宁省大连辽渔国际水产品市场",
+      "tier": "province"
+    },
+    "676": {
+      "name": "广西南宁海陆丰水产品批发市场",
+      "tier": "national"
+    },
+    "677": {
+      "name": "云南华潮水产品批发市场",
+      "tier": "national"
+    },
+    "690": {
+      "name": "三亚崖州港湾投资有限公司",
+      "tier": "national"
+    },
+    "692": {
+      "name": "湖北宜昌三峡物流园有限公司水产市场",
+      "tier": "national"
+    },
+    "694": {
+      "name": "海南海口水产品批发市场",
+      "tier": "national"
+    },
+    "695": {
+      "name": "湖北黄冈硕源水产品批发市场",
+      "tier": "national"
+    },
+    "698": {
+      "name": "广州黄沙水产交易市场有限公司",
+      "tier": "national"
+    },
+    "700": {
+      "name": "长沙水渡河农产品批发市场",
+      "tier": "national"
+    },
+    "703": {
+      "name": "桂林市城南水产综合批发市场",
+      "tier": "national"
+    },
+    "713": {
+      "name": "河南万邦国际农产品批发市场",
+      "tier": "national"
+    },
+    "715": {
+      "name": "四川西部冷都商业管理有限公司",
+      "tier": "national"
+    },
+    "716": {
+      "name": "乐山市中农城水产交易中心",
+      "tier": "national"
+    }
+  },
+  "frozen_rules": {
+    "_comment": "判定顺序：规格名含 exclude 词 → 非冻品；品名含 product 词 → 冻品；否则规格名含 spec 词或 extra 词 → 冻品。",
+    "exclude_spec_keywords": [
+      "鲜",
+      "活"
+    ],
+    "frozen_product_keywords": [
+      "进口",
+      "冰",
+      "冻"
+    ],
+    "frozen_spec_keywords": [
+      "冻",
+      "冰"
+    ],
+    "extra_frozen_spec_keywords": [
+      "统货"
+    ]
+  },
+  "alert_threshold": 0.1,
+  "stale_days": 3
+}

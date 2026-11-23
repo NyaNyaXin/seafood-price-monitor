@@ -1,0 +1,91 @@
+# 云端部署：Web(Nitro) + 采集(Python) 两个容器，数据库用「已在单独容器里运行的 PostgreSQL」。
+#
+# 用法：
+#   cp deploy/docker.env.example .env      # 填 DB_HOST / DB_USER / DB_PASSWORD 等
+#   docker compose up -d --build
+#   docker compose ps
+#   curl -s "localhost:3000/api/health?db=1"
+#
+# 数据库不在本文件里定义——PostgreSQL 已有独立容器，这里只「连过去」。
+# 连接方式二选一（详见 deploy/README.md）：
+#   A. 端口映射：PG 容器把 5432 发布到宿主机 → DB_HOST=host.docker.internal（默认）
+#   B. 同一网络：把 PG 接到本文件用的网络 → DB_HOST=<PG 容器名>，无需发布端口
+#
+# 注意：所有 ${VAR} 从项目根目录 .env 读取；没有 .env 时用下面写的默认值。
+
+services:
+  # ---------------- 看板 Web ----------------
+  web:
+    build:
+      context: .
+      dockerfile: docker/web.Dockerfile
+    image: seafood-price-monitor-web:${APP_VERSION:-latest}
+    container_name: seafood-web
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      # 服务端用它直连 PostgreSQL（server/utils/pg.ts 读 DB_*，优先级高于 NUXT_DB_*）
+      DB_HOST: ${DB_HOST:-host.docker.internal}
+      DB_PORT: ${DB_PORT:-5432}
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-}
+      DB_NAME: ${DB_NAME:-seafood_price}
+      DB_CONNECT_TIMEOUT: ${DB_CONNECT_TIMEOUT:-8}
+    ports:
+      # 默认发布到宿主机所有网卡；只想给本机反代用就设 WEB_BIND=127.0.0.1
+      - "${WEB_BIND:-0.0.0.0}:${WEB_PORT:-3000}:3000"
+    extra_hosts:
+      # 让容器内的 host.docker.internal 指向宿主机（Linux 上默认没有这条）
+      - "host.docker.internal:host-gateway"
+    networks:
+      - seafood
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ---------------- 每日采集 ----------------
+  fetch:
+    build:
+      context: .
+      dockerfile: docker/fetch.Dockerfile
+    image: seafood-price-monitor-fetch:${APP_VERSION:-latest}
+    container_name: seafood-fetch
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      DB_HOST: ${DB_HOST:-host.docker.internal}
+      DB_PORT: ${DB_PORT:-5432}
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-}
+      DB_NAME: ${DB_NAME:-seafood_price}
+      DB_CONNECT_TIMEOUT: ${DB_CONNECT_TIMEOUT:-8}
+      # 每天采集时间（容器本地时区）；首次启动是否立刻跑一次
+      FETCH_AT: ${FETCH_AT:-07:00}
+      RUN_ON_START: ${RUN_ON_START:-true}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # 采集日志与 CSV 导出放命名卷，容器重建不丢
+      - fetch-logs:/app/logs
+      - fetch-export:/app/data/export
+    networks:
+      - seafood
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  seafood:
+    # 若 PG 已在某个自建网络里，把 DOCKER_NETWORK 设成那个网络名即可复用（存在则直接用，
+    # 不存在则由 compose 创建同名 bridge）。跨 compose 项目时还需把 PG 容器接进来：
+    #   docker network connect <网络名> <PG 容器名>
+    name: ${DOCKER_NETWORK:-seafood-net}
+    driver: bridge
+
+volumes:
+  fetch-logs:
+  fetch-export:

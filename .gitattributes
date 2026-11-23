@@ -1,0 +1,13 @@
+# 统一按文本处理，检出时用平台默认换行，避免 Windows/Linux 混用时整文件 diff
+* text=auto
+
+# 脚本类强制 LF，避免在容器里因 CRLF 报 bad interpreter
+*.sh text eol=lf
+*.py text eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary
+*.db binary

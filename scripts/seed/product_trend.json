@@ -1,0 +1,9466 @@
+[
+{
+"trend_date": "2025-11-25",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-11-25",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-11-29",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-11-30",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-01",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-02",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-03",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-04",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-05",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-06",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-07",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-07",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-08",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-08",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-09",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-09",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-10",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-11",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-12",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-13",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 31.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-12-13",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-13",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-13",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 31.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-12-14",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-14",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 31.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-12-14",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-14",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 31.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2025-12-15",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-15",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-16",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-16",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-17",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-18",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-18",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-19",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-20",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-20",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-21",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-21",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-22",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-23",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-23",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-24",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-24",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-25",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-26",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-27",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-27",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-28",
+"region": "cn",
+"product_id": 549,
+"product_name": "扇贝柱",
+"price": 60.0,
+"fetch_time": "2026-11-24T00:38:06"
+},
+{
+"trend_date": "2025-12-28",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-29",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2025-12-30",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2026-01-04",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2026-01-05",
+"region": "cn",
+"product_id": 368,
+"product_name": "竹荚鱼",
+"price": 7.0,
+"fetch_time": "2026-11-24T00:37:25"
+},
+{
+"trend_date": "2026-05-25",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"trend_date": "2026-05-31",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"trend_date": "2026-06-08",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"trend_date": "2026-06-14",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"trend_date": "2026-06-19",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"trend_date": "2026-07-04",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"price": 10.1,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"trend_date": "2026-07-07",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"price": 9.77,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"trend_date": "2026-07-11",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"price": 10.5,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"trend_date": "2026-07-14",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"price": 10.0,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"trend_date": "2026-07-21",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"price": 10.0,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 185.6,
+"fetch_time": "2026-11-23T23:07:56"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-23T23:07:56"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.82,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.05,
+"fetch_time": "2026-11-23T23:07:55"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 95.5,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 44.97,
+"fetch_time": "2026-11-23T23:08:06"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-23T23:08:15"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-23T23:08:14"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.5,
+"fetch_time": "2026-11-23T23:07:27"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.29,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.98,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 106.33,
+"fetch_time": "2026-11-23T23:07:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-23T23:07:19"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.33,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 49.66,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-23T23:08:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.94,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-23T23:08:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:55"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:55"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-23T23:08:15"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 50.33,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-23T23:08:14"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-23T23:08:16"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-23T23:07:19"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 29.93,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-23T23:07:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.0,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-23T23:08:06"
+},
+{
+"trend_date": "2026-10-23",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 47.5,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.18,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.54,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 167.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.63,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.97,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 95.5,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.68,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 53.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 32.75,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.05,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 109.08,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.19,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-24",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 43.7,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 47.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 50.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 29.93,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-24",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.25,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 101.9,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 57.96,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.11,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.87,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 44.72,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 97.36,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 185.6,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.73,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-25",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.83,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 29.93,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 47.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-25",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 50.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.71,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 56.28,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.33,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 47.17,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 192.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 56.07,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 88.09,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 49.47,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.74,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 99.9,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 41.71,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 37.85,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.5,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-26",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 8.5,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 67.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 115.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 31.83,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-26",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 97.73,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 52.67,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 57.61,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 164.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 49.39,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.15,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 49.71,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 61.55,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.33,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.25,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 104.25,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.25,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.25,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-27",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 36.11,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 67.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 31.83,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-27",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 115.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.83,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.29,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.95,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 47.43,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 192.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 100.4,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 102.79,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.38,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.32,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.3,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 47.27,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-28",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.65,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 49.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.14,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-28",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 115.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 130.75,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 181.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.6,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.63,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.07,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 103.38,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 163.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.22,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 49.68,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 46.9,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.96,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 99.55,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.2,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-29",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-29",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 126.91,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.46,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.19,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.3,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.79,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.36,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 36.0,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 190.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 105.18,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.75,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 182.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 44.72,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-30",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.81,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 35.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-30",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 182.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.75,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 107.2,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 133.03,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 44.66,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.05,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 58.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.27,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 36.0,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.64,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 190.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.2,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-31",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 104.89,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 36.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-10-31",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 197.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.67,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.69,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.77,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 59.43,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.76,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.0,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.2,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 45.32,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 31.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.98,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 34.75,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 122.25,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 11.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 102.46,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 187.33,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-01",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 120.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-01",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.57,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.5,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.25,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 48.35,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 167.33,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 9.67,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 57.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 182.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.41,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.78,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 60.15,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.2,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 53.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 105.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.5,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 125.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.36,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 47.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-02",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 182.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.79,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 111.8,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.08,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 57.56,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 36.25,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.67,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 126.41,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 102.86,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.63,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 57.05,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.85,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 190.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-03",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 46.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 120.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 79.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 48.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-03",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.21,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.65,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.07,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.59,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.29,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 101.55,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 57.4,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.02,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 181.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.6,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 126.75,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.73,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-04",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.59,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.21,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 48.75,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-04",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 120.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 55.76,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 28.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 179.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 107.82,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 181.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.38,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 101.31,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 126.32,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.05,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.53,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.59,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-05",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 45.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 79.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 125.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-05",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 179.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.44,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.44,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 102.36,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 55.67,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 25.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 109.78,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.76,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 189.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 48.44,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.62,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.57,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.2,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-06",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 125.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.43,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 45.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 36.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 84.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-06",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 130.89,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.6,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 46.11,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 48.87,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.61,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 181.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 43.9,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 55.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 31.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.93,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 89.52,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 89.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.21,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 45.75,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 140.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-07",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 115.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.75,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 9.67,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 54.67,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 52.45,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 43.9,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 48.48,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.8,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 124.9,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.33,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.93,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 92.56,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.04,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 189.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-08",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.43,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 88.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 115.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-08",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 31.33,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.52,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 9.67,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.87,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 55.13,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.71,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 45.94,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 124.45,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 91.08,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 181.6,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.82,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.25,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.19,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.45,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-09",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 86.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 120.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-09",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 31.75,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 43.9,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.22,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 162.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 107.8,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.77,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 105.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.61,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 130.53,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.07,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 56.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.45,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.99,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-10",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 45.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 46.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 80.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.29,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 145.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-10",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 53.2,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.65,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 105.97,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 33.5,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.1,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 107.5,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.77,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.68,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.01,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 176.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-11",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 80.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 125.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 43.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-11",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.67,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.58,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.51,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.92,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.59,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.1,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 155.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.6,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 46.18,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.85,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.2,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 114.46,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 55.43,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 81.67,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 30.07,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-12",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 106.8,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.1,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 108.07,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.68,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.8,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.85,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 30.75,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 176.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.65,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.56,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.16,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-13",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.13,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.36,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 83.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-13",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 25.33,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.75,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.25,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 52.04,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.77,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.23,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 48.36,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 100.65,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 177.33,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 141.17,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 46.14,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.56,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-14",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 47.95,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.25,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 83.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.5,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-14",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.75,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.16,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.5,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.24,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 176.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.16,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 25.33,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 47.75,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 142.72,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 51.3,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 107.88,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 53.55,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 109.48,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 64.5,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 34.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 25.33,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-15",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.29,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 110.22,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.56,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.95,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.93,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 57.05,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 46.18,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.33,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.57,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.5,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 57.68,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 106.28,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.25,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 31.5,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-16",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 157.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.42,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 108.5,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 48.67,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 48.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-16",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 40.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.93,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 48.91,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 101.77,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 160.25,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 9.67,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.21,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.7,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.89,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.53,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 131.83,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 43.9,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.23,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-17",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 80.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.43,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-17",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 106.11,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 26.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 56.58,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.6,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.26,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 42.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.86,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 132.05,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.05,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 55.06,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 48.81,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.6,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 180.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 160.25,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 109.04,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-18",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 8.5,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 28.0,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 95.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 40.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 48.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-18",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 9.67,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 38.25,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 40.33,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 47.79,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 52.57,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 50.18,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.57,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 42.28,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 126.14,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.5,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.91,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 104.2,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 52.76,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 181.6,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 181.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-19",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 100.04,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 59.5,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 34.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 25.33,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 101.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-19",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.45,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 47.13,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 42.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 50.99,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.31,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 35.12,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 153.47,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 51.2,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 181.8,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 177.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 100.32,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 46.29,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 8.5,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 108.11,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.5,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-20",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 51.05,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 8.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 49.33,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 47.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-20",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 108.5,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 50.27,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.94,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 55.22,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.59,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 140.31,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 105.6,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.91,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 106.52,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 48.31,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 54.31,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 150.0,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 10.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.43,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 80.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-21",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 43.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 409,
+"product_name": "鮸鱼（鳘鱼）",
+"price": 27.0,
+"fetch_time": "2026-11-24T00:32:04"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 51.12,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 484,
+"product_name": "日本对虾",
+"price": 177.5,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 52.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 46.88,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 555,
+"product_name": "海蜇头",
+"price": 50.5,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 54.67,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 10.75,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"price": 53.93,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 34.48,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 468,
+"product_name": "中国对虾",
+"price": 133.33,
+"fetch_time": "2026-11-24T00:32:32"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 106.91,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 106.04,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 485,
+"product_name": "斑节对虾",
+"price": 183.2,
+"fetch_time": "2026-11-24T00:32:33"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 49.76,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"price": 80.33,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"price": 43.33,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"price": 32.43,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"price": 42.5,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 344,
+"product_name": "银鲳",
+"price": 130.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 557,
+"product_name": "鱿鱼",
+"price": 39.0,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 519,
+"product_name": "扇贝",
+"price": 10.0,
+"fetch_time": "2026-11-24T00:32:44"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 554,
+"product_name": "海蜇皮",
+"price": 14.0,
+"fetch_time": "2026-11-24T00:32:54"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"trend_date": "2026-11-22",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"trend_date": "2026-11-24",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"trend_date": "2026-11-24",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"price": 32.0,
+"fetch_time": "2026-11-24T00:39:55"
+}
+]

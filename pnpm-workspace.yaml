@@ -1,0 +1,5 @@
+# pnpm 12 默认不执行依赖的 build 脚本，必须显式允许（`pnpm approve-builds` 写的就是这里）。
+# esbuild 的 install 脚本负责把平台二进制放到正确位置，不放行会让 nuxt build 直接失败。
+# 其余依赖没有 install 脚本，无需在此列出。
+allowBuilds:
+  esbuild: true

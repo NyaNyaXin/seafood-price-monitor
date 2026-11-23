@@ -1,0 +1,782 @@
+[
+{
+"snap_date": "2025-12-15",
+"region": "cn",
+"product_id": 501,
+"product_name": "北极甜虾",
+"category": "海水甲壳类",
+"spec_name": "冻每500克130-150只",
+"price": 31.5,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"snap_date": "2025-12-15",
+"region": "ln",
+"product_id": 501,
+"product_name": "北极甜虾",
+"category": "海水甲壳类",
+"spec_name": "冻每500克130-150只",
+"price": 31.5,
+"fetch_time": "2026-11-24T00:39:55"
+},
+{
+"snap_date": "2026-06-20",
+"region": "cn",
+"product_id": 415,
+"product_name": "进口带鱼",
+"category": "海水鱼类",
+"spec_name": "350≤冻条重＜500",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:39:03"
+},
+{
+"snap_date": "2026-07-28",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重≥1000",
+"price": 9.5,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"snap_date": "2026-07-28",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"category": "海水鱼类",
+"spec_name": "500≤冻条重＜1000",
+"price": 10.5,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"snap_date": "2026-07-28",
+"region": "cn",
+"product_id": 414,
+"product_name": "进口黄鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜500",
+"price": 9.5,
+"fetch_time": "2026-11-24T00:38:48"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"category": "海水鱼类",
+"spec_name": "150≤冻条重＜250",
+"price": 70.0,
+"fetch_time": "2026-11-23T23:07:18"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜250",
+"price": 44.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"category": "海水鱼类",
+"spec_name": "250≤冻条重＜400",
+"price": 89.0,
+"fetch_time": "2026-11-23T23:07:18"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "500≤冻条重＜1000",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"category": "海水鱼类",
+"spec_name": "体长≥30公分",
+"price": 180.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "1000≤冻条重＜1500",
+"price": 30.33,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜200",
+"price": 15.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "200≤冻条重＜350",
+"price": 26.93,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 7.5,
+"fetch_time": "2026-11-23T23:08:15"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "350≤冻条重＜500",
+"price": 33.67,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 45.67,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重≥500",
+"price": 58.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "统货",
+"price": 75.79,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜100",
+"price": 71.0,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重≥600",
+"price": 36.0,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜150",
+"price": 22.0,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜600",
+"price": 40.67,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 51.33,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 100.0,
+"fetch_time": "2026-11-23T23:08:14"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜500",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:55"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"category": "海水甲壳类",
+"spec_name": "统货",
+"price": 106.91,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"category": "海水甲壳类",
+"spec_name": "冻每500克30只下",
+"price": 46.0,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"snap_date": "2026-11-22",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜250",
+"price": 12.0,
+"fetch_time": "2026-11-23T23:07:19"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "500≤冻条重＜1000",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜250",
+"price": 12.0,
+"fetch_time": "2026-11-23T23:07:19"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜250",
+"price": 44.0,
+"fetch_time": "2026-11-23T23:07:53"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜500",
+"price": 20.0,
+"fetch_time": "2026-11-23T23:07:55"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"category": "海水甲壳类",
+"spec_name": "统货",
+"price": 130.0,
+"fetch_time": "2026-11-23T23:07:57"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 7.5,
+"fetch_time": "2026-11-23T23:08:15"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 48.0,
+"fetch_time": "2026-11-23T23:08:18"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 100.0,
+"fetch_time": "2026-11-23T23:08:14"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜600",
+"price": 35.0,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜150",
+"price": 22.0,
+"fetch_time": "2026-11-23T23:07:16"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "统货",
+"price": 108.5,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "350≤冻条重＜500",
+"price": 24.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-22",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "1000≤冻条重＜1500",
+"price": 38.0,
+"fetch_time": "2026-11-23T23:07:17"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 419,
+"product_name": "进口鳕鱼",
+"category": "海水鱼类",
+"spec_name": "体长≥30公分",
+"price": 180.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重≥600",
+"price": 36.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜600",
+"price": 42.5,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜150",
+"price": 22.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜100",
+"price": 71.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "统货",
+"price": 77.21,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重≥500",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "350≤冻条重＜500",
+"price": 37.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "200≤冻条重＜350",
+"price": 26.93,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜200",
+"price": 15.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "1000≤冻条重＜1500",
+"price": 33.0,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "500≤冻条重＜1000",
+"price": 19.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"category": "海水鱼类",
+"spec_name": "250≤冻条重＜400",
+"price": 89.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 344,
+"product_name": "银鲳",
+"category": "海水鱼类",
+"spec_name": "150≤冻条重＜250",
+"price": 70.0,
+"fetch_time": "2026-11-24T00:31:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 367,
+"product_name": "鲐鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜250",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜250",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜500",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 486,
+"product_name": "南美白对虾",
+"category": "海水甲壳类",
+"spec_name": "冻每500克30只下",
+"price": 46.0,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 492,
+"product_name": "梭子蟹",
+"category": "海水甲壳类",
+"spec_name": "统货",
+"price": 115.88,
+"fetch_time": "2026-11-24T00:32:34"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 556,
+"product_name": "墨鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 45.67,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"snap_date": "2026-11-23",
+"region": "cn",
+"product_id": 557,
+"product_name": "鱿鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 51.33,
+"fetch_time": "2026-11-24T00:32:56"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "350≤冻条重＜500",
+"price": 24.0,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 679,
+"product_name": "虾夷扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 100.0,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 332,
+"product_name": "带鱼",
+"category": "海水鱼类",
+"spec_name": "统货",
+"price": 108.5,
+"fetch_time": "2026-11-24T00:31:51"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 680,
+"product_name": "海湾扇贝",
+"category": "海水贝类",
+"spec_name": "统货",
+"price": 7.5,
+"fetch_time": "2026-11-24T00:32:53"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 331,
+"product_name": "小黄鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜150",
+"price": 22.0,
+"fetch_time": "2026-11-24T00:31:50"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 556,
+"product_name": "墨鱼",
+"category": "海水头足类",
+"spec_name": "统货",
+"price": 48.0,
+"fetch_time": "2026-11-24T00:32:55"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 417,
+"product_name": "进口鲳鱼",
+"category": "海水鱼类",
+"spec_name": "冻条重＜250",
+"price": 44.0,
+"fetch_time": "2026-11-24T00:32:30"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 367,
+"product_name": "鲐鱼",
+"category": "海水鱼类",
+"spec_name": "100≤冻条重＜250",
+"price": 12.0,
+"fetch_time": "2026-11-24T00:31:55"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 330,
+"product_name": "大黄鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜600",
+"price": 35.0,
+"fetch_time": "2026-11-24T00:31:49"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 425,
+"product_name": "进口鮸鱼",
+"category": "海水鱼类",
+"spec_name": "300≤冻条重＜500",
+"price": 20.0,
+"fetch_time": "2026-11-24T00:32:31"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "500≤冻条重＜1000",
+"price": 19.5,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 334,
+"product_name": "马鲛鱼",
+"category": "海水鱼类",
+"spec_name": "1000≤冻条重＜1500",
+"price": 38.0,
+"fetch_time": "2026-11-24T00:31:52"
+},
+{
+"snap_date": "2026-11-23",
+"region": "ln",
+"product_id": 492,
+"product_name": "梭子蟹",
+"category": "海水甲壳类",
+"spec_name": "统货",
+"price": 138.0,
+"fetch_time": "2026-11-24T00:32:34"
+}
+]

@@ -1,0 +1,19 @@
+{
+  // Nuxt 4 的「solution style」根配置：本身不含文件，只把 app / server / shared / node
+  // 四个子项目（由 `nuxt prepare` 生成在 .nuxt/ 下）挂给 IDE 和 tsc。
+  //
+  // 为什么必须有这个文件：少了它，VS Code 的 TS 服务找不到任何 project，
+  // server/api/*.ts 会落进 "inferred project"——于是 Nitro 的自动导入
+  // （defineEventHandler / getQuery / getQuery…）和 Node 类型（process）全都报
+  // 「找不到名称」。app/ 下的 .vue 同理拿不到自动导入。
+  //
+  // 注意：本文件不要 include/exclude 任何业务目录，覆盖范围由 .nuxt/tsconfig.*.json 决定；
+  // 每次改完 nuxt.config.ts 或新增目录，跑一次 `pnpm dev`（或 `nuxt prepare`）重新生成。
+  "files": [],
+  "references": [
+    { "path": "./.nuxt/tsconfig.app.json" },
+    { "path": "./.nuxt/tsconfig.server.json" },
+    { "path": "./.nuxt/tsconfig.shared.json" },
+    { "path": "./.nuxt/tsconfig.node.json" }
+  ]
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Daily seafood price fetch at 07:00 (Asia/Shanghai)
+
+[Timer]
+# 服务器时区为 Asia/Shanghai 时才对应北京时间 07:00；
+# 若服务器是 UTC，这里要写 OnCalendar=*-*-* 23:00:00（UTC 前一日）
+OnCalendar=*-*-* 07:00:00
+# 关机/重启错过的任务，开机后补跑一次
+Persistent=true
+Unit=seafood-fetch.service
+
+[Install]
+WantedBy=timers.target

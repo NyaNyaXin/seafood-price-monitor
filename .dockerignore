@@ -1,0 +1,35 @@
+# 构建上下文排除项：让 web 镜像不必上传 node_modules，也避免把本地密钥、日志、SQLite 打进去。
+
+# 依赖与构建产物（镜像内重新安装 / 重新构建）
+node_modules
+.nuxt
+.output
+dist
+.pnpm-store
+pnpm-debug.log*
+
+# 本地数据与日志（采集容器的日志走命名卷，不需要进镜像）
+data
+logs
+.data
+
+# 本地环境变量（必须排除，否则 DB_PASSWORD 会被写进镜像层）
+.env
+.env.*
+!.env.example
+
+# 别的包管理器的锁文件（本项目统一 pnpm，锁文件 pnpm-lock.yaml 必须进上下文）
+package-lock.json
+yarn.lock
+npm-shrinkwrap.json
+
+# 运行时不需要的东西
+.git
+.gitignore
+docs
+README.md
+deploy/systemd
+docker-compose.yml
+**/__pycache__
+**/*.pyc
+**/.DS_Store
