@@ -8,6 +8,13 @@
  */
 import { usePriceData } from '~/composables/usePriceData'
 
+interface FetchProgress {
+  phase: 'idle' | 'snapshot' | 'specs' | 'retry' | 'done'
+  done: number
+  total: number
+  percent: number
+}
+
 interface FetchStatus {
   enabled: boolean
   reason: 'ok' | 'no_script' | 'no_token'
@@ -18,6 +25,8 @@ interface FetchStatus {
   exit_code: number | null
   duration_s: number | null
   message: string
+  /** 旧状态（HMR 前创建的单例）可能没有该字段，取值时兜底 */
+  progress?: FetchProgress
   log_tail: string[]
 }
 
@@ -30,6 +39,9 @@ const tokenInput = ref('')
 const tokenEl = ref<HTMLInputElement | null>(null)
 const tip = ref('')
 const elapsed = ref(0)
+const logVisible = ref(false)
+const logEl = ref<HTMLDivElement | null>(null)
+let autoOpened = false
 
 let pollTimer: ReturnType<typeof setTimeout> | null = null
 let tickTimer: ReturnType<typeof setInterval> | null = null
@@ -55,6 +67,37 @@ const label = computed(() => {
 const title = computed(() =>
   enabled.value ? tip.value || '立即运行一次采集（约 2–3 分钟）' : reasonText.value,
 )
+
+const progress = computed<FetchProgress>(() =>
+  status.value?.progress ?? { phase: 'idle', done: 0, total: 0, percent: 0 },
+)
+const percent = computed(() => Math.round(Math.min(100, Math.max(0, progress.value.percent))))
+const logs = computed(() => status.value?.log_tail ?? [])
+const canShowLog = computed(() => logs.value.length > 0 || phase.value === 'running')
+
+const phaseText = computed(() => {
+  switch (progress.value.phase) {
+    case 'snapshot': return '市场快照'
+    case 'specs': return '分规格 / 趋势'
+    case 'retry': return '补偿轮'
+    case 'done': return '已入库'
+    default: return '准备中'
+  }
+})
+const progressDetail = computed(() => {
+  const p = progress.value
+  if (p.phase === 'done') return '完成'
+  return p.total > 0 ? `${p.done} / ${p.total}` : ''
+})
+
+// 新日志到达时保持滚动在底部（用户手动上翻时不打扰，简单起见只在抽屉打开时贴底）
+watch([() => logs.value.length, logVisible], () => {
+  if (!logVisible.value) return
+  void nextTick(() => {
+    const el = logEl.value
+    if (el) el.scrollTop = el.scrollHeight
+  })
+})
 
 function formatElapsed(total: number): string {
   const m = Math.floor(total / 60)
@@ -113,6 +156,11 @@ async function refreshStatus() {
         phase.value = 'running'
         startTicking()
       }
+      // 页面首次加载就发现任务在跑时，自动把日志抽屉打开一次
+      if (!autoOpened) {
+        autoOpened = true
+        logVisible.value = true
+      }
       schedulePoll()
       return
     }
@@ -133,6 +181,8 @@ async function run(token: string) {
     sessionStorage.setItem(TOKEN_KEY, token)
     phase.value = 'running'
     elapsed.value = 0
+    autoOpened = true
+    logVisible.value = true
     startTicking()
     schedulePoll(1000)
   } catch (err) {
@@ -211,6 +261,15 @@ onBeforeUnmount(() => {
       @click="onClick"
     >{{ label }}</button>
 
+    <button
+      v-if="canShowLog"
+      class="refresh fetch-log-toggle"
+      :class="{ active: logVisible }"
+      type="button"
+      title="查看采集日志与进度"
+      @click="logVisible = !logVisible"
+    >日志</button>
+
     <div v-if="phase === 'token'" class="fetch-token-pop">
       <div class="fetch-token-row">
         <input
@@ -229,4 +288,30 @@ onBeforeUnmount(() => {
       <span v-if="tip" class="fetch-tip">{{ tip }}</span>
     </div>
   </div>
+
+  <Teleport to="body">
+    <Transition name="fetch-log">
+      <section v-if="logVisible" class="fetch-log" aria-label="采集日志">
+        <header class="fetch-log-head">
+          <span class="fetch-log-title">FETCH LOG</span>
+          <span class="fetch-log-phase" :class="phase">{{ phaseText }}</span>
+          <span class="fetch-log-count">{{ progressDetail }}</span>
+          <span class="fetch-log-pct">{{ percent }}%</span>
+          <button class="fetch-log-close" type="button" aria-label="关闭日志" @click="logVisible = false">×</button>
+        </header>
+
+        <div class="fetch-log-bar"><i :style="{ width: percent + '%' }" /></div>
+
+        <div ref="logEl" class="fetch-log-body">
+          <div v-if="!logs.length" class="fetch-log-empty">等待输出…</div>
+          <div v-for="(line, i) in logs" :key="i" class="ln">{{ line }}</div>
+        </div>
+
+        <footer class="fetch-log-foot">
+          <span>{{ phase === 'running' ? `已用时 ${formatElapsed(elapsed)}` : (status?.duration_s ? `耗时 ${status.duration_s}s` : '') }}</span>
+          <span class="fetch-log-msg">{{ status?.message || '' }}</span>
+        </footer>
+      </section>
+    </Transition>
+  </Teleport>
 </template>

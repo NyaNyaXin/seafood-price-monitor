@@ -131,7 +131,7 @@ body{
 /* 动作组：采集（主）+ 刷新（次），右对齐；.refresh 自带 margin-left:auto，进组后归零 */
 .hero-actions{margin-left:auto;display:inline-flex;align-items:center;gap:6px}
 .hero-actions .refresh{margin-left:0}
-.fetch-wrap{position:relative;display:inline-flex;align-items:center}
+.fetch-wrap{position:relative;display:inline-flex;align-items:center;gap:6px}
 /* 主按钮用站点强调色，与 pill / 新鲜度标签同一色系 */
 .fetch-btn{min-width:96px;font-variant-numeric:tabular-nums;
   background:var(--hi);border-color:var(--ink);color:var(--on-hi)}
@@ -152,6 +152,35 @@ body{
 .fetch-token-ok{margin-left:0;background:none;color:var(--ink);border-color:var(--ink)}
 .fetch-token-ok:hover:not(:disabled){background:var(--ink);color:var(--on-ink)}
 .fetch-tip{display:block;margin-top:6px;font-size:10px;color:var(--up);white-space:nowrap}
+
+/* ---------- 采集日志抽屉（fixed 右下，终端风格）---------- */
+.fetch-log-toggle{min-width:0;padding:3px 8px;color:var(--ink2);
+  border-color:var(--rule2);background:none}
+.fetch-log-toggle.active,.fetch-log-toggle:hover{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.fetch-log{position:fixed;right:20px;bottom:20px;z-index:80;width:min(540px,calc(100vw - 40px));
+  background:var(--paper);border:1px solid var(--ink);box-shadow:4px 4px 0 var(--rule);
+  font-family:var(--mono)}
+.fetch-log-head{display:flex;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid var(--rule)}
+.fetch-log-title{font-size:9.5px;letter-spacing:1.4px;color:var(--ink3)}
+.fetch-log-phase{font-size:9.5px;font-weight:700;letter-spacing:.3px;padding:1px 6px;
+  background:var(--hi);color:var(--on-hi)}
+.fetch-log-count{font-size:10px;color:var(--ink2);font-variant-numeric:tabular-nums}
+.fetch-log-pct{margin-left:auto;font-size:11px;font-weight:700;font-variant-numeric:tabular-nums}
+.fetch-log-close{width:20px;height:20px;padding:0;border:1px solid var(--rule2);background:none;
+  color:var(--ink2);font-size:14px;line-height:1;display:grid;place-items:center;cursor:pointer;
+  transition:.15s;flex:none}
+.fetch-log-close:hover{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.fetch-log-bar{height:3px;background:var(--rule)}
+.fetch-log-bar i{display:block;height:100%;background:var(--hi);transition:width .3s ease}
+.fetch-log-body{max-height:260px;overflow:auto;padding:8px 10px;font-size:11px;line-height:1.55;
+  color:var(--ink2);word-break:break-all;overscroll-behavior:contain}
+.fetch-log-body .ln{white-space:pre-wrap}
+.fetch-log-empty{color:var(--ink3);font-size:10.5px}
+.fetch-log-foot{display:flex;justify-content:space-between;gap:10px;padding:6px 10px;
+  border-top:1px solid var(--rule);font-size:9.5px;color:var(--ink3)}
+.fetch-log-msg{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fetch-log-enter-active,.fetch-log-leave-active{transition:opacity .16s ease,transform .16s ease}
+.fetch-log-enter-from,.fetch-log-leave-to{opacity:0;transform:translateY(6px)}
 
 /* 刊头右侧：当日异动牌（首页专供，其余页仍是 DATA FEED 小标签） */
 .hero-aside{flex:none;display:flex;justify-content:flex-end;padding-top:2px}

@@ -5,14 +5,23 @@
  * 线上 web 镜像只有 .output，没有 Python 与 scripts/，此时 enabled=false，按钮禁用。
  *
  * 状态挂在 globalThis 上，抵抗 Nitro HMR 重载（与 server/utils/pg.ts 的单例思路一致）。
- * 不修改 scripts/fetch.py，只负责起进程、收集尾部日志、给出退出结果。
+ * 不修改 scripts/fetch.py，只负责起进程、收集日志、从日志行推导阶段进度。
  */
 import { createHash, timingSafeEqual } from 'node:crypto'
 import { spawn } from 'node:child_process'
 import { existsSync } from 'node:fs'
 import path from 'node:path'
+import reference from '../../shared/reference.json'
 
 type DisabledReason = 'ok' | 'no_script' | 'no_token'
+type FetchPhase = 'idle' | 'snapshot' | 'specs' | 'retry' | 'done'
+
+export interface FetchProgress {
+  phase: FetchPhase
+  done: number
+  total: number
+  percent: number
+}
 
 interface FetchRunState {
   running: boolean
@@ -22,6 +31,12 @@ interface FetchRunState {
   exitCode: number | null
   message: string
   logLines: string[]
+  /** stdout/stderr 可能把一行拆到两个 chunk，这里暂存未闭合的半行 */
+  partial: string
+  progress: FetchProgress
+  seenSpecs: Set<number>
+  retryTotal: number
+  retryDone: number
   timer: ReturnType<typeof setTimeout> | null
   kill: (() => void) | null
 }
@@ -36,6 +51,7 @@ export interface FetchStatusPayload {
   exit_code: number | null
   duration_s: number | null
   message: string
+  progress: FetchProgress
   log_tail: string[]
 }
 
@@ -43,9 +59,15 @@ interface RunnerHolder {
   __seafoodFetchRun?: FetchRunState
 }
 
-const MAX_LOG_LINES = 200
+const MAX_LOG_LINES = 500
+const LOG_TAIL_LINES = 120
 const MAX_LINE_CHARS = 300
 const TIMEOUT_MS = 10 * 60 * 1000
+const SPEC_TOTAL = reference.frozen_products.length || 29
+
+function idleProgress(): FetchProgress {
+  return { phase: 'idle', done: 0, total: 0, percent: 0 }
+}
 
 function getState(): FetchRunState {
   const holder = globalThis as unknown as RunnerHolder
@@ -58,6 +80,11 @@ function getState(): FetchRunState {
       exitCode: null,
       message: '',
       logLines: [],
+      partial: '',
+      progress: idleProgress(),
+      seenSpecs: new Set<number>(),
+      retryTotal: 0,
+      retryDone: 0,
       timer: null,
       kill: null,
     }
@@ -91,13 +118,100 @@ export function verifyToken(input: string | undefined): boolean {
   return timingSafeEqual(a, b)
 }
 
-function pushLines(state: FetchRunState, chunk: Buffer) {
-  for (const raw of chunk.toString('utf-8').split(/\r?\n/)) {
+/**
+ * 从 fetch.py 的日志行推导进度。阶段顺序：
+ *   快照分页 → 29 个品种分规格 → 补偿轮 → 入库完成
+ * 只做区间估算，不追求精确到秒；日志格式见 scripts/fetch.py。
+ */
+function trackProgress(state: FetchRunState, line: string) {
+  const page = /第 (\d+)\/(\d+) 页/.exec(line)
+  if (page) {
+    const done = Number(page[1])
+    const total = Number(page[2]) || 3
+    state.progress = {
+      phase: 'snapshot',
+      done,
+      total,
+      percent: Math.min(10, 2 + (8 * done) / total),
+    }
+    return
+  }
+
+  const retry = /补偿轮: 重试 (\d+) 个/.exec(line)
+  if (retry) {
+    state.retryTotal = Number(retry[1])
+    state.retryDone = 0
+    state.progress = {
+      phase: 'retry',
+      done: 0,
+      total: state.retryTotal,
+      percent: 96,
+    }
+    return
+  }
+
+  const spec = /\[规格\] pid=(\d+)/.exec(line)
+  if (spec) {
+    const pid = Number(spec[1])
+    if (state.progress.phase === 'retry') {
+      state.retryDone += 1
+      const total = Math.max(1, state.retryTotal)
+      state.progress = {
+        phase: 'retry',
+        done: state.retryDone,
+        total,
+        percent: Math.min(99, 95 + (4 * state.retryDone) / total),
+      }
+    } else if (!state.seenSpecs.has(pid)) {
+      state.seenSpecs.add(pid)
+      const done = state.seenSpecs.size
+      state.progress = {
+        phase: 'specs',
+        done,
+        total: SPEC_TOTAL,
+        percent: Math.min(95, 10 + (85 * done) / SPEC_TOTAL),
+      }
+    }
+    return
+  }
+
+  const specDone = /\[规格\] 完成: (\d+)\/(\d+)/.exec(line)
+  if (specDone) {
+    state.progress = {
+      phase: 'specs',
+      done: Number(specDone[1]),
+      total: Number(specDone[2]) || SPEC_TOTAL,
+      percent: 95,
+    }
+    return
+  }
+
+  if (/入库:/.test(line)) {
+    state.progress = { phase: 'done', done: 1, total: 1, percent: 100 }
+  }
+}
+
+function ingest(state: FetchRunState, chunk: Buffer) {
+  const parts = (state.partial + chunk.toString('utf-8')).split(/\r?\n/)
+  state.partial = parts.pop() ?? ''
+  for (const raw of parts) {
     const line = raw.trim()
     if (!line) continue
-    state.logLines.push(line.slice(0, MAX_LINE_CHARS))
+    const clipped = line.slice(0, MAX_LINE_CHARS)
+    state.logLines.push(clipped)
     if (state.logLines.length > MAX_LOG_LINES) state.logLines.shift()
+    trackProgress(state, clipped)
   }
+}
+
+function flushPartial(state: FetchRunState) {
+  const line = state.partial.trim()
+  state.partial = ''
+  if (!line) return
+  const clipped = line.slice(0, MAX_LINE_CHARS)
+  state.logLines.push(clipped)
+  if (state.logLines.length > MAX_LOG_LINES) state.logLines.shift()
+  trackProgress(state, clipped)
 }
 
 /** fetch.py 成功时最后一行是 JSON：{"status":"OK","snapshot":..,"specs":..,"trends":..} */
@@ -157,6 +271,11 @@ export function startFetch(): StartResult {
   state.exitCode = null
   state.message = ''
   state.logLines = []
+  state.partial = ''
+  state.progress = { phase: 'snapshot', done: 0, total: 3, percent: 2 }
+  state.seenSpecs = new Set<number>()
+  state.retryTotal = 0
+  state.retryDone = 0
 
   const child = spawn(cfg.pythonBin, ['-u', cfg.scriptPath], {
     cwd: process.cwd(),
@@ -172,8 +291,8 @@ export function startFetch(): StartResult {
 
   state.kill = () => child.kill()
 
-  child.stdout?.on('data', (chunk: Buffer) => pushLines(state, chunk))
-  child.stderr?.on('data', (chunk: Buffer) => pushLines(state, chunk))
+  child.stdout?.on('data', (chunk: Buffer) => ingest(state, chunk))
+  child.stderr?.on('data', (chunk: Buffer) => ingest(state, chunk))
 
   let timedOut = false
 
@@ -189,15 +308,18 @@ export function startFetch(): StartResult {
   })
 
   child.on('close', (code: number | null) => {
+    flushPartial(state)
     state.running = false
     state.finishedAt = new Date().toISOString()
     state.exitCode = code
     if (timedOut) {
       state.ok = false
       state.message = '采集超时（10 分钟），已终止'
+      state.progress = { ...state.progress, percent: 100 }
     } else if (code === 0) {
       state.ok = true
       state.message = summarize(state.logLines) || '采集完成'
+      state.progress = { phase: 'done', done: 1, total: 1, percent: 100 }
     } else {
       state.ok = false
       state.message = lastLine(state.logLines) || `采集失败（退出码 ${code ?? '未知'}）`
@@ -239,6 +361,7 @@ export function getFetchStatus(): FetchStatusPayload {
     exit_code: state.exitCode,
     duration_s: duration,
     message: state.message,
-    log_tail: state.logLines.slice(-20),
+    progress: state.progress,
+    log_tail: state.logLines.slice(-LOG_TAIL_LINES),
   }
 }
