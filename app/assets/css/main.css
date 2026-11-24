@@ -127,6 +127,32 @@ body{
 .refresh:hover:not(:disabled){background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
 .refresh:disabled{color:var(--ink3);cursor:progress;border-color:var(--rule)}
 
+/* ---------- 立即采集（本机触发 scripts/fetch.py）---------- */
+/* 动作组：采集（主）+ 刷新（次），右对齐；.refresh 自带 margin-left:auto，进组后归零 */
+.hero-actions{margin-left:auto;display:inline-flex;align-items:center;gap:6px}
+.hero-actions .refresh{margin-left:0}
+.fetch-wrap{position:relative;display:inline-flex;align-items:center}
+/* 主按钮用站点强调色，与 pill / 新鲜度标签同一色系 */
+.fetch-btn{min-width:96px;font-variant-numeric:tabular-nums;
+  background:var(--hi);border-color:var(--ink);color:var(--on-hi)}
+.fetch-btn:hover:not(:disabled){background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.fetch-btn:disabled{background:none;color:var(--ink3);border-color:var(--rule);cursor:not-allowed}
+.fetch-btn.running{background:var(--ink);color:var(--on-ink);border-color:var(--ink);cursor:progress}
+.fetch-btn.done{background:var(--hi);color:var(--on-hi);border-color:var(--ink)}
+.fetch-btn.error{background:none;color:var(--up);border-color:var(--up)}
+/* 口令浮层：向上弹出（不遮下方行情横条），宽度按内容撑开，避免把「确认」挤成竖排 */
+.fetch-token-pop{position:absolute;bottom:calc(100% + 8px);right:0;z-index:60;
+  width:max-content;max-width:calc(100vw - 40px);padding:9px 10px;
+  background:var(--paper);border:1px solid var(--ink);box-shadow:3px 3px 0 var(--rule)}
+.fetch-token-row{display:flex;align-items:center;gap:6px}
+.fetch-token-input{height:24px;width:150px;border:1px solid var(--rule2);background:var(--paper);
+  color:var(--ink);font-family:var(--mono);font-size:11px;padding:0 7px;outline:none}
+.fetch-token-input:focus{border-color:var(--ink)}
+.fetch-token-input.invalid{border-color:var(--up)}
+.fetch-token-ok{margin-left:0;background:none;color:var(--ink);border-color:var(--ink)}
+.fetch-token-ok:hover:not(:disabled){background:var(--ink);color:var(--on-ink)}
+.fetch-tip{display:block;margin-top:6px;font-size:10px;color:var(--up);white-space:nowrap}
+
 /* 刊头右侧：当日异动牌（首页专供，其余页仍是 DATA FEED 小标签） */
 .hero-aside{flex:none;display:flex;justify-content:flex-end;padding-top:2px}
 .feed{min-width:250px;max-width:300px;border:1px solid var(--ink);padding:10px 13px 11px}

@@ -136,6 +136,7 @@ curl -s "localhost:3000/api/health?db=1"
 | 操作 | 命令 |
 |---|---|
 | 立即抓一次 | `python scripts/fetch.py` |
+| 看板点「立即采集」 | 本机触发一次采集（`.env` 需配 `FETCH_TOKEN`；线上 web 容器无 Python，按钮自动禁用） |
 | 只抓市场快照（跳过分规格，调试快） | `python scripts/fetch.py --skip-list` |
 | 建库建表 / 导种子 | `python scripts/init_pg.py` ／ `python scripts/init_pg.py --seed` |
 | 导出种子（备份当前库） | `python scripts/init_pg.py --dump-seed` |

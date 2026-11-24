@@ -48,8 +48,11 @@ scripts/fetch.py ──→ PostgreSQL ←── server/api/price-data.get.ts ─
 | `server/utils/pg.ts` | `pg` Pool，挂 `globalThis` 防 HMR 重建；读 `process.env.DB_*` 优先 | — |
 | `server/api/price-data.get.ts` | 唯一数据接口，冻品过滤下推 SQL | ★ 冻品 SQL 口径 |
 | `server/api/health.get.ts` | 存活探针；`?db=1` 额外 `SELECT 1` | — |
+| `server/utils/fetchRunner.ts` | 本机「立即采集」任务：spawn `scripts/fetch.py`、`globalThis` 状态单例、口令校验 | — |
+| `server/api/fetch-{run,status}.ts` | `POST /api/fetch-run` 触发采集；`GET /api/fetch-status` 轮询进度 | — |
 | `app/composables/usePriceData.ts` | 取数 + 全部派生逻辑（series/涨跌/阈值） | ★ 前端派生口径 |
 | `app/pages/{index,trend,specs,history}.vue` | 四个路由页面 | — |
+| `app/components/FetchButton.vue` | Hero 里的「立即采集」按钮（口令浮层 + 3s 轮询 + 完成自动刷新） | — |
 | `app/{components,assets/css}` | 导航/Hero/Footer + 全局样式（含 Reka UI 组件样式） | — |
 | `docker/` + `docker-compose.yml` | 线上：web + fetch 两容器，PG 在外部 | — |
 | `deploy/` | 部署手册、env 模板、systemd（备选） | — |
@@ -145,6 +148,7 @@ SQL 占位符写 psycopg2 原生形式：位置参数 `%s`、命名参数 `%(nam
 - **`noUncheckedIndexedAccess` 是开着的**（Nuxt 4 默认）：`arr[i]`、`record[key]` 都是 `T | undefined`。取值先收窄（`if (!x) return null` / 局部变量），**不要用 `!` 或 `as any` 压下去**——这块最容易在类型检查里翻车。
 - 类型检查读根 `tsconfig.json`（references 指向 `.nuxt/tsconfig.*.json`）。改完用 `pnpm typecheck` 验证，别只靠编辑器。
 - 路由固定 `/`、`/trend`、`/specs`、`/history`；导航在 `SiteNav.vue`。链接用 `NuxtLink`。
+- **「立即采集」按钮仅本机可用**：`POST /api/fetch-run` 用 `child_process.spawn` 跑 `scripts/fetch.py`，状态存在 `server/utils/fetchRunner.ts` 的 `globalThis` 单例里，前端每 3s 轮询 `/api/fetch-status`。启用条件 = 项目根有 `scripts/fetch.py` **且** 配置了 `FETCH_TOKEN`；Docker 的 web 镜像没有这两样，按钮自动禁用。**不要**为了「线上也能点」往 web 镜像塞 Python 或挂 `docker.sock`。
 
 ---
 

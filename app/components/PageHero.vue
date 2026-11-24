@@ -31,9 +31,12 @@ const gen = computed(() => (meta.value.generated_at || '').replace('T', ' ').sli
       <span><em>数据日期</em><b>{{ meta.latest_date || '—' }}</b><span v-if="!pending" :class="freshness.cls">{{ freshness.text }}</span></span>
       <span><em>生成</em><b>{{ gen || '—' }}</b></span>
       <span><em>观测</em><b>{{ pending ? '—' : (meta.total_obs ?? obs.length) }}</b> 条</span>
-      <button class="refresh" type="button" :disabled="pending" @click="reload()">
-        {{ pending ? '读取中' : '刷新数据' }}
-      </button>
+      <div class="hero-actions">
+        <FetchButton />
+        <button class="refresh" type="button" :disabled="pending" @click="reload()">
+          {{ pending ? '读取中' : '刷新数据' }}
+        </button>
+      </div>
     </div>
   </header>
 </template>
