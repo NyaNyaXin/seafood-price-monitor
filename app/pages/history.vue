@@ -6,8 +6,24 @@ useHead({ title: '历史明细' })
 const { obs, meta, pending } = usePriceData()
 
 const ALL = '__all__'
+/** 日期用原生日期值：'' = 全部日期（组件内部转成 DateValue） */
+const dateFilter = ref<string>('')
 const marketFilter = ref<string>(ALL)
 const productFilter = ref<string>(ALL)
+
+/** 实际有报送的日期（倒序）与条数：日历打点 + 限定可翻范围 */
+const dateStats = computed(() => {
+  const count = new Map<string, number>()
+  for (const o of obs.value) count.set(o.obs_date, (count.get(o.obs_date) ?? 0) + 1)
+  return [...count.entries()]
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([date, count]) => ({ date, count }))
+})
+const availableDates = computed(() => dateStats.value.map(s => s.date))
+const dateBounds = computed(() => {
+  const ds = availableDates.value
+  return { min: ds[ds.length - 1] ?? '', max: ds[0] ?? '' }
+})
 
 const marketOptions = computed(() => {
   const ids = [...new Set(obs.value.map(o => o.market_id))]
@@ -24,30 +40,56 @@ const productOptions = computed(() => {
     .sort((a, b) => a.label.localeCompare(b.label, 'zh'))
 })
 
-const hist = computed(() => obs.value
+/** 三个条件过滤后的完整结果（倒序），条数与截断判定都基于它 */
+const filtered = computed(() => obs.value
+  .filter(o => !dateFilter.value || o.obs_date === dateFilter.value)
   .filter(o => marketFilter.value === ALL || String(o.market_id) === marketFilter.value)
   .filter(o => productFilter.value === ALL || String(o.product_id) === productFilter.value)
   .slice()
-  .sort((a, b) => b.obs_date.localeCompare(a.obs_date) || a.market_id - b.market_id)
-  .slice(0, 50))
+  .sort((a, b) => b.obs_date.localeCompare(a.obs_date) || a.market_id - b.market_id))
+
+/**
+ * 未选日期时保持「最新 50 条」的轻量定位（长期积累后不把几万行一次渲染出来）；
+ * 选定某一天则展示该日全部记录——单日最多百余条，截断反而会让用户以为漏采。
+ */
+const hist = computed(() =>
+  !dateFilter.value ? filtered.value.slice(0, 50) : filtered.value,
+)
+
+const countHint = computed(() => {
+  const shown = hist.value.length
+  // 未选日期且被截断时，把「显示多少 / 总共多少」都讲清楚，别让人以为库里只有 50 条
+  if (!dateFilter.value && filtered.value.length > shown)
+    return `最新 ${shown} / 共 ${filtered.value.length} 条 · 倒序`
+  return `${shown} 条 · 倒序`
+})
 </script>
 
 <template>
   <div>
     <PageHero
-      pill="ARCHIVE · LATEST 50"
+      pill="ARCHIVE · BY DATE"
       en="OBSERVATION ARCHIVE"
       title="历史明细"
-      sub="本地每日自存的市场成交报价 · 按市场筛选 · 仅冷冻水产"
+      sub="本地每日自存的市场成交报价 · 按日期 / 市场 / 品种筛选 · 仅冷冻水产"
     />
 
     <section class="card">
       <div class="card-head">
         <span class="badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-        <h2>历史明细</h2><span class="hint">Latest 50 / 倒序</span>
+        <h2>历史明细</h2><span class="hint">{{ countHint }}</span>
       </div>
       <div class="card-body">
         <div class="filters">
+          <div class="fg">
+            <label>日期 / DATE <span class="fg-note">{{ dateStats.length }} 天有报送</span></label>
+            <DateField
+              v-model="dateFilter"
+              :min="dateBounds.min"
+              :max="dateBounds.max"
+              :available-dates="availableDates"
+            />
+          </div>
           <div class="fg">
             <label>市场 / MARKET</label>
             <SearchSelect
@@ -80,7 +122,7 @@ const hist = computed(() => obs.value
             <TableSkeleton v-if="pending" :rows="10" :cols="6" />
             <tbody v-else>
               <tr v-if="!hist.length">
-                <td colspan="6" class="empty-row">没有符合当前筛选的记录，试试放宽市场或品种条件</td>
+                <td colspan="6" class="empty-row">没有符合当前筛选的记录，试试放宽日期、市场或品种条件</td>
               </tr>
               <tr v-for="(o, i) in hist" :key="i">
                 <td class="spec">{{ o.obs_date }}</td>
@@ -93,7 +135,7 @@ const hist = computed(() => obs.value
             </tbody>
           </table>
         </div>
-        <div class="legend">本表为本地采集脚本每日自存的报价流水（<code>GetPriceNow</code> 快照，全国 59 市场白名单），与走势页的平台现成 30 天序列口径不同。</div>
+        <div class="legend">本表为本地采集脚本每日自存的报价流水（<code>GetPriceNow</code> 快照，全国 59 市场白名单），与走势页的平台现成 30 天序列口径不同。日期为采集当日的本地日期（<code>Asia/Shanghai</code>）；选定某天展示该日全部记录，未选日期时只显示最新 50 条。</div>
       </div>
     </section>
 

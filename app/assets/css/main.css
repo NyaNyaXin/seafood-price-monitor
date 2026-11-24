@@ -197,6 +197,78 @@ select:focus{outline:2px solid var(--ink);outline-offset:1px}
 .seg button:hover{background:var(--paper2);color:var(--ink)}
 .seg button.active{background:var(--ink);color:var(--on-ink)}
 
+/* ---------- Date Picker（Reka DatePicker，headless 全自绘）---------- */
+.fg-note{font-family:var(--mono);font-size:9px;color:var(--ink3);margin-left:6px;letter-spacing:.3px}
+.dp-wrap{display:flex;align-items:center;gap:6px;position:relative}
+/* Reka 的 DatePickerRoot 把内部容器默认设成 column（field 在上、content 在下），
+   这里强制回 row，让输入段和日历图标排成一行 */
+.dp-field{display:flex;flex-direction:row!important;align-items:center;height:38px;min-height:38px;max-height:38px;
+  overflow:hidden;border:1px solid var(--ink);
+  border-radius:2px;background:var(--paper);padding:0 8px 0 9px;min-width:172px;
+  cursor:pointer;transition:background .15s}
+/* Reka 给 Field 注入了相对偏移用于自身叠加定位，这里覆盖回正常流。
+   Trigger 不走这条：它需要 position:absolute 覆盖图标区（见下方 .dp-trigger），
+   若在这里写 static 会特指度更高地压过 absolute，导致触发器塌成 0 尺寸点不到。 */
+.dp-field .dp-field-inner{height:38px;min-width:0;position:static!important;top:auto!important;left:auto!important;transform:none!important}
+.dp-field:hover{background:var(--paper2)}
+.dp-field:focus-within{outline:2px solid var(--ink);outline-offset:1px}
+.dp-field-inner{display:flex;align-items:center;flex:1;min-width:0}
+.dp-segments{display:flex;align-items:center;flex:1;min-width:0}
+.dp-seg{display:inline-block;white-space:nowrap;
+  font-family:var(--mono);font-size:12.5px;color:var(--ink);
+  padding:2px 3px;outline:none;line-height:1;min-width:0}
+.dp-seg[data-placeholder]{color:var(--ink3)}
+.dp-icon-slot{position:relative;width:26px;height:24px;flex:none;
+  display:grid;place-items:center;border-left:1px solid var(--rule);
+  padding-left:6px;margin-left:5px}
+.dp-icon{width:15px;height:15px;fill:none;stroke:var(--ink);stroke-width:1.8}
+.dp-trigger{position:absolute!important;inset:0;width:100%!important;height:100%!important;
+  cursor:pointer;background:transparent;border:0}
+/* 清除：融入字段内部，竖线分隔、带文字，热区比原来孤立的 × 大得多 */
+.dp-clear-inline{flex:none;align-self:stretch;display:flex;align-items:center;
+  margin-left:2px;padding:0 2px 0 10px;border:0;border-left:1px solid var(--rule2);
+  background:none;color:var(--ink3);font-family:var(--sans);font-size:11px;
+  cursor:pointer;transition:color .14s}
+.dp-clear-inline:hover{color:var(--ink)}
+
+/* 日历弹层：沿用冷库标签的硬边 + 窄体数字 + 荧光贴纸 */
+.dp-content{z-index:200;width:296px;background:var(--paper);border:2px solid var(--ink);
+  box-shadow:4px 4px 0 var(--shadow);padding:0;
+  animation:dp-in .14s ease-out}
+@keyframes dp-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+/* 刊头：黑色实底，与全站报头/统计横条同一套语言 */
+.dp-masthead{display:flex;align-items:center;justify-content:space-between;
+  background:var(--ink);color:var(--on-ink);padding:8px 12px}
+.dp-masthead>span{font-family:var(--sans);font-size:10px;letter-spacing:.6px;opacity:.85}
+.dp-masthead b{font-family:var(--cond);font-size:17px;font-weight:700;letter-spacing:.2px;line-height:1}
+.dp-masthead b i{font-family:var(--sans);font-size:10px;font-style:normal;font-weight:400;
+  color:var(--hi);letter-spacing:0;margin-left:4px}
+.dp-cal{padding:12px}
+.dp-grid{width:100%}
+.dp-row{display:grid;grid-template-columns:repeat(7,1fr)}
+.dp-th{font-family:var(--sans);font-size:10px;color:var(--ink3);text-align:center;
+  padding:4px 0 8px;font-weight:400;border-bottom:1.5px solid var(--ink)}
+.dp-td{display:flex}
+.dp-day{position:relative;flex:1;display:flex;align-items:center;justify-content:center;
+  height:36px;font-family:var(--cond);font-size:15px;font-weight:500;color:var(--ink);
+  cursor:pointer;border:1px solid transparent;transition:background .1s}
+.dp-day .has-data{font-weight:700}
+.dp-day:hover{background:var(--paper2);border-color:var(--rule2)}
+.dp-day[data-outside-view]{color:var(--ink3);opacity:.5}
+.dp-day[data-today]{border-color:var(--rule2)}
+/* 选中日：荧光贴纸底 + 深色字，暗色下 --on-hi 固定深色，始终清晰 */
+.dp-day[data-selected]{background:var(--hi);color:var(--on-hi);border-color:var(--hi);font-weight:700}
+.dp-day[data-disabled]{opacity:.25;cursor:not-allowed}
+.dp-day[data-unavailable]{opacity:.35;cursor:not-allowed;text-decoration:line-through}
+.dp-day[data-focused]{outline:2px solid var(--hi);outline-offset:-2px}
+.dp-dot{position:absolute;bottom:3px;left:50%;transform:translateX(-50%);
+  width:4px;height:4px;background:var(--hi)}
+.dp-day[data-selected] .dp-dot{background:var(--on-hi)}
+.dp-foot{display:flex;align-items:center;gap:8px;
+  margin-top:10px;padding-top:9px;border-top:1px solid var(--rule)}
+.dp-foot>span{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--ink3)}
+.dp-foot .dp-dot{position:static;transform:none;flex:none}
+
 /* ---------- Chart ---------- */
 #chart{width:100%;height:380px}
 .empty{height:380px;display:flex;flex-direction:column;align-items:center;
@@ -426,7 +498,9 @@ tr.alert .price::after{content:"▲";font-size:8px;color:var(--warn);margin-left
 .ui-select-item[data-disabled]{color:var(--ink3);cursor:not-allowed}
 .ui-select-indicator{margin-left:auto;font-weight:700;color:var(--ink)}
 
-.ui-combo{display:flex;align-items:center;gap:8px;height:38px;min-width:180px;
+/* Reka ComboboxRoot 会给内部容器注入 flex-direction:column（下拉内容竖排用），
+   但 anchor 里的输入框+箭头必须横排，这里强制回 row */
+.ui-combo{display:flex;flex-direction:row!important;align-items:center;gap:8px;height:38px;min-width:180px;
   background:var(--paper);border:1px solid var(--ink);border-radius:2px;
   padding:0 8px 0 11px;transition:.15s}
 .ui-combo:hover{background:var(--paper2)}
