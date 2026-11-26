@@ -4,7 +4,7 @@ import { usePriceData } from '~/composables/usePriceData'
 
 useHead({ title: '价格走势' })
 
-const { trends } = usePriceData()
+const { trends, obs } = usePriceData()
 
 // 只看品种：曲线是平台「全国 / 辽宁」的区域聚合价，
 // 与单个市场无关，所以这里不设市场筛选（设了反而会误导）。
@@ -34,6 +34,61 @@ const pointInfo = computed(() => {
   if (!first || !last) return { text: '—', count: 0, stale: false }
   const span = (new Date(last.d + 'T00:00:00').getTime() - new Date(first.d + 'T00:00:00').getTime()) / 86400000
   return { text: `${first.d} ~ ${last.d}`, count: pts.length, stale: span > 45 }
+})
+
+/**
+ * 本地采集分档走势：只用 price_obs（每日市场快照），按规格档位分线，
+ * 同一档位同一天跨市场取中位数，不做跨档位平均（避免统货/小规格互相拉偏）。
+ * 只保留至少 2 天数据的档位，最多 8 条，按数据点数降序。
+ */
+interface LocalSpecSeries {
+  name: string
+  pts: { date: string; price: number }[]
+}
+
+function median(values: number[]): number {
+  const sorted = [...values].sort((a, b) => a - b)
+  const mid = Math.floor(sorted.length / 2)
+  const hi = sorted[mid]
+  const lo = sorted[mid - 1]
+  if (sorted.length % 2 === 1) return hi ?? 0
+  return lo != null && hi != null ? (lo + hi) / 2 : (hi ?? lo ?? 0)
+}
+
+const localSpecs = computed<LocalSpecSeries[]>(() => {
+  const pid = Number(productId.value)
+  if (!pid) return []
+  const bySpec = new Map<string, Map<string, number[]>>()
+  for (const o of obs.value) {
+    if (o.product_id !== pid) continue
+    const spec = (o.spec_name || '').trim()
+    if (!spec || spec === '/') continue
+    let dates = bySpec.get(spec)
+    if (!dates) {
+      dates = new Map<string, number[]>()
+      bySpec.set(spec, dates)
+    }
+    const arr = dates.get(o.obs_date)
+    if (arr) arr.push(o.price)
+    else dates.set(o.obs_date, [o.price])
+  }
+
+  const out: LocalSpecSeries[] = []
+  for (const [name, dates] of bySpec) {
+    const pts = [...dates.entries()]
+      .map(([date, prices]) => ({ date, price: median(prices) }))
+      .sort((a, b) => a.date.localeCompare(b.date))
+    if (pts.length < 2) continue
+    out.push({ name, pts })
+  }
+  return out.sort((a, b) => b.pts.length - a.pts.length).slice(0, 8)
+})
+
+const localRange = computed(() => {
+  const dates = localSpecs.value.flatMap((s) => s.pts.map((p) => p.date)).sort()
+  const first = dates[0]
+  const last = dates[dates.length - 1]
+  return first && last ? `${first} ~ ${last}` : '—'
 })
 
 // ECharts —— 静态引入：本页是独立路由 chunk，只有访问 /trend 才加载，
@@ -125,17 +180,117 @@ async function drawChart() {
   chart.resize()
 }
 
+/* 本地采集线色板：按规格档位分色，亮暗各一套 */
+const LOCAL_LIGHT = ['#0f1113', '#1f4e79', '#8a5a00', '#2f6b3a', '#7a2e2e', '#5b4b8a', '#0b6b6b', '#8a6d1f']
+const LOCAL_DARK = ['#e9edf0', '#63a4dd', '#e0b050', '#63c98a', '#e07a6e', '#a89ad8', '#5cc9c9', '#d8b56a']
+
+const localEl = ref<HTMLDivElement | null>(null)
+let localChart: echarts.ECharts | null = null
+
+function drawLocalChart() {
+  if (!localEl.value) return
+  const specs = localSpecs.value
+  if (!specs.length) {
+    localChart?.clear()
+    return
+  }
+  if (!localChart) localChart = echarts.init(localEl.value, undefined, { renderer: 'canvas' })
+
+  const c = isDark.value ? SCHEMES.dark : SCHEMES.light
+  const colors = isDark.value ? LOCAL_DARK : LOCAL_LIGHT
+  const dates = [...new Set(specs.flatMap((s) => s.pts.map((p) => p.date)))].sort()
+  const series = specs.map((s, i) => {
+    const color = colors[i % colors.length] ?? c.strong
+    const byDate = new Map(s.pts.map((p) => [p.date, p.price]))
+    return {
+      name: s.name,
+      type: 'line' as const,
+      data: dates.map((d) => byDate.get(d) ?? null),
+      connectNulls: false,
+      smooth: false,
+      symbol: 'circle',
+      symbolSize: 4,
+      lineStyle: { width: 1.6, color },
+      itemStyle: { color },
+    }
+  })
+
+  localChart.setOption({
+    animation: false,
+    backgroundColor: 'transparent',
+    color: colors,
+    textStyle: { fontFamily: 'JetBrains Mono, monospace', color: c.text },
+    tooltip: {
+      trigger: 'axis',
+      backgroundColor: c.tipBg,
+      borderColor: c.tipBorder,
+      borderWidth: 1,
+      padding: [8, 10],
+      textStyle: { color: c.strong, fontFamily: 'JetBrains Mono, monospace', fontSize: 11 },
+      extraCssText: `box-shadow:3px 3px 0 ${c.tipShadow};border-radius:0;`,
+      valueFormatter: (v: unknown) => {
+        const n = typeof v === 'number' ? v : Number(v)
+        return Number.isFinite(n) ? `${n.toFixed(2)} 元/kg` : '—'
+      },
+    },
+    legend: {
+      type: 'scroll',
+      top: 0,
+      left: 'center',
+      itemWidth: 14,
+      itemHeight: 2,
+      itemGap: 14,
+      textStyle: { color: c.text, fontSize: 10, fontFamily: 'Microsoft YaHei, sans-serif' },
+    },
+    grid: { left: 52, right: 22, top: 44, bottom: 34 },
+    xAxis: {
+      type: 'category',
+      data: dates,
+      boundaryGap: false,
+      axisLabel: { color: c.muted, fontSize: 10, hideOverlap: true,
+        formatter: (v: string) => v.slice(5) },
+      axisLine: { lineStyle: { color: c.axis, width: 1 } },
+      axisTick: { show: false },
+    },
+    yAxis: {
+      type: 'value',
+      name: '元/kg',
+      scale: true,
+      nameTextStyle: { color: c.muted, fontSize: 10, padding: [0, 0, 0, -32] },
+      axisLabel: { color: c.muted, fontSize: 10 },
+      axisLine: { show: false },
+      splitLine: { lineStyle: { color: c.split } },
+    },
+    series,
+  }, true)
+  localChart.resize()
+}
+
 watch(productId, () => {
-  if (productId.value) nextTick(drawChart)
-  else chart?.clear()
+  if (productId.value) {
+    void nextTick(() => {
+      drawChart()
+      drawLocalChart()
+    })
+  } else {
+    chart?.clear()
+    localChart?.clear()
+  }
 })
 
-function onResize() { chart?.resize() }
+watch(localSpecs, () => {
+  if (productId.value) void nextTick(drawLocalChart)
+})
+
+function onResize() {
+  chart?.resize()
+  localChart?.resize()
+}
 
 let mql: MediaQueryList | null = null
 function onScheme(e: MediaQueryListEvent) {
   isDark.value = e.matches
-  if (productId.value) nextTick(drawChart)
+  if (productId.value) void nextTick(() => { drawChart(); drawLocalChart() })
 }
 
 onMounted(() => {
@@ -149,6 +304,8 @@ onUnmounted(() => {
   mql?.removeEventListener('change', onScheme)
   chart?.dispose()
   chart = null
+  localChart?.dispose()
+  localChart = null
 })
 </script>
 
@@ -158,7 +315,7 @@ onUnmounted(() => {
       pill="PRICE TREND · 30D"
       en="30-DAY PRICE CURVE"
       title="价格走势"
-      sub="平台现成 30 天序列 · 全国 / 辽宁双线 · 选品种后单独展示"
+      sub="平台 30 天序列（全国 / 辽宁） + 本地每日采集分档走势 · 选品种后展示"
     />
 
     <section class="card">
@@ -192,6 +349,19 @@ onUnmounted(() => {
         <div v-else>
           <div v-show="hasSeries" ref="chartEl" id="chart" />
           <div v-if="!hasSeries" class="empty"><div class="wave">〜 〜 〜</div><div>该品种暂无历史序列</div></div>
+
+          <div class="local-trend">
+            <div class="local-trend-head">
+              <b>本地采集 · 分档走势</b>
+              <span>{{ localRange }} · 同档跨市场取中位</span>
+            </div>
+            <div class="local-chart-wrap">
+              <div ref="localEl" id="local-chart" class="local-chart" />
+              <div v-if="!localSpecs.length" class="local-empty">
+                该品种暂无本地采集数据，需先采集至少 2 天同一规格
+              </div>
+            </div>
+          </div>
         </div>
         <div class="chart-note">
           <span class="range-chip" :class="{ warn: pointInfo.stale }">
@@ -200,6 +370,8 @@ onUnmounted(() => {
           </span>
           <br />
           全国线为平台全国报送均价，辽宁线为辽宁报送均价（平台现成 30 天序列，非本系统自攒）。断点=当日该区无报送。口径为平台聚合价，与首页市场成交报价不同；曲线不按单个市场拆分。
+          <br />
+          下方本地采集线来自每日市场快照（<code>price_obs</code>），按规格档位分线、同档跨市场取中位数，只覆盖本系统开始采集后的日期，与上方平台聚合序列口径不同，不可直接横向比价。
         </div>
       </div>
     </section>
