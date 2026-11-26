@@ -63,6 +63,8 @@ const todayRows = computed(() => {
     const idx = s ? s.pts.findIndex(p => p.date === o.obs_date) : -1
     const d1 = s ? changeAt(s, idx) : null
     const d7 = s ? changeDaysAgo(s, idx, 7) : null
+    // 上期价 = 同一「市场+品种+规格」序列里的上一次有效观测
+    const prevPrice = s && idx > 0 ? (s.pts[idx - 1]?.price ?? null) : null
     return {
       ...o,
       market: shortMkt(o.market_id, meta.value),
@@ -70,6 +72,7 @@ const todayRows = computed(() => {
       tier: marketTier(o.market_id, meta.value),
       spec: o.spec_name && o.spec_name !== '/' ? o.spec_name : '—',
       d1, d7,
+      prevPrice,
       alert: d1 != null && Math.abs(d1) / 100 >= THR.value,
     }
   })
@@ -220,14 +223,15 @@ function chgText(v: number | null) {
         <div class="tbl-wrap">
           <table>
             <thead><tr>
-              <th style="width:17%">市场</th><th style="width:17%">品种</th><th style="width:28%">规格</th>
-              <th class="num" style="width:11%">报价 元/kg</th><th class="num" style="width:9%">约合 元/斤</th>
-              <th class="num" style="width:9%">较上期</th><th class="num" style="width:9%">较7天前</th>
+              <th style="width:15%">市场</th><th style="width:15%">品种</th><th style="width:23%">规格</th>
+              <th class="num" style="width:11%">报价 元/kg</th><th class="num" style="width:10%">上期 元/kg</th>
+              <th class="num" style="width:9%">约合 元/斤</th>
+              <th class="num" style="width:9%">较上期</th><th class="num" style="width:8%">较7天前</th>
             </tr></thead>
-            <TableSkeleton v-if="pending" :rows="8" :cols="7" />
+            <TableSkeleton v-if="pending" :rows="8" :cols="8" />
             <tbody v-else>
               <tr v-if="!todayRows.length">
-                <td colspan="7" class="empty-row">没有符合当前筛选的报价，试试放宽市场或品种条件</td>
+                <td colspan="8" class="empty-row">没有符合当前筛选的报价，试试放宽市场或品种条件</td>
               </tr>
               <tr
                 v-for="(r, i) in todayRows"
@@ -239,6 +243,7 @@ function chgText(v: number | null) {
                 <td class="prod">{{ r.product_name }}</td>
                 <td class="spec">{{ r.spec }}</td>
                 <td class="num"><span class="price">{{ r.price.toFixed(2) }}</span></td>
+                <td class="num"><span class="price-prev">{{ r.prevPrice != null ? r.prevPrice.toFixed(2) : '—' }}</span></td>
                 <td class="num"><span class="price-jin">{{ (r.price / 2).toFixed(2) }}</span></td>
                 <td class="num"><span :class="chgClass(r.d1)">{{ chgText(r.d1) }}</span></td>
                 <td class="num"><span :class="chgClass(r.d7)">{{ chgText(r.d7) }}</span></td>
@@ -248,6 +253,7 @@ function chgText(v: number | null) {
         </div>
         <div class="legend">
           涨跌按「市场+品种+规格」各自序列计算，取最近一次有效观测（跳过缺报日，不补 0）。<b class="up">红=涨</b>、<b class="down">绿=跌</b>；黄底行为涨跌超 ±{{ (THR * 100).toFixed(0) }}% 的异常项。
+          「上期」为同一序列的上一次有效观测价，首日或无历史时显示「—」。
           沈阳两家为每日核心观测，辽宁其他与全国市场为同平台参考报价，跨市场价差主要来自产地、规格与运输成本。
           新纳入的市场需累积 2 天以上，才会出现「较上期」对比值。
         </div>

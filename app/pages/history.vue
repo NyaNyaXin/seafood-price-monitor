@@ -49,20 +49,43 @@ const filtered = computed(() => obs.value
   .sort((a, b) => b.obs_date.localeCompare(a.obs_date) || a.market_id - b.market_id))
 
 /**
- * 未选日期时保持「最新 50 条」的轻量定位（长期积累后不把几万行一次渲染出来）；
- * 选定某一天则展示该日全部记录——单日最多百余条，截断反而会让用户以为漏采。
+ * 客户端分页：每页 50 条。数据来自 /api/price-data 的全量观测，
+ * 统一分页后不再区分「是否选了日期」——某天记录超过 50 条也能翻页看完。
  */
-const hist = computed(() =>
-  !dateFilter.value ? filtered.value.slice(0, 50) : filtered.value,
-)
-
-const countHint = computed(() => {
-  const shown = hist.value.length
-  // 未选日期且被截断时，把「显示多少 / 总共多少」都讲清楚，别让人以为库里只有 50 条
-  if (!dateFilter.value && filtered.value.length > shown)
-    return `最新 ${shown} / 共 ${filtered.value.length} 条 · 倒序`
-  return `${shown} 条 · 倒序`
+const PAGE_SIZE = 50
+const page = ref(1)
+const pageCount = computed(() => Math.max(1, Math.ceil(filtered.value.length / PAGE_SIZE)))
+const hist = computed(() => {
+  const start = (page.value - 1) * PAGE_SIZE
+  return filtered.value.slice(start, start + PAGE_SIZE)
 })
+const countHint = computed(() => `${filtered.value.length} 条 · 倒序`)
+
+/** 翻页后回到表头，避免停留在页面底部看不到新一页的数据 */
+const tableEl = ref<HTMLElement | null>(null)
+function scrollToTable() {
+  const el = tableEl.value
+  if (!el) return
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' })
+}
+
+async function prevPage() {
+  if (page.value <= 1) return
+  page.value--
+  await nextTick()
+  scrollToTable()
+}
+async function nextPage() {
+  if (page.value >= pageCount.value) return
+  page.value++
+  await nextTick()
+  scrollToTable()
+}
+
+// 筛选条件变化回到第一页；数据刷新后页码越界自动收回
+watch([dateFilter, marketFilter, productFilter], () => { page.value = 1 })
+watch(pageCount, (n) => { if (page.value > n) page.value = n })
 </script>
 
 <template>
@@ -112,7 +135,7 @@ const countHint = computed(() => {
           </div>
         </div>
 
-        <div class="tbl-wrap">
+        <div ref="tableEl" class="tbl-wrap">
           <table>
             <thead><tr>
               <th style="width:11%">日期</th><th style="width:26%">市场</th><th style="width:20%">品种</th>
@@ -135,7 +158,13 @@ const countHint = computed(() => {
             </tbody>
           </table>
         </div>
-        <div class="legend">本表为本地采集脚本每日自存的报价流水（<code>GetPriceNow</code> 快照，全国 59 市场白名单），与走势页的平台现成 30 天序列口径不同。日期为采集当日的本地日期（<code>Asia/Shanghai</code>）；选定某天展示该日全部记录，未选日期时只显示最新 50 条。</div>
+        <div v-if="pageCount > 1" class="pager">
+          <span>共 {{ filtered.length }} 条</span>
+          <button type="button" :disabled="page <= 1" @click="prevPage">上一页</button>
+          <span>第 <b>{{ page }}</b> / {{ pageCount }} 页</span>
+          <button type="button" :disabled="page >= pageCount" @click="nextPage">下一页</button>
+        </div>
+        <div class="legend">本表为本地采集脚本每日自存的报价流水（<code>GetPriceNow</code> 快照，全国 59 市场白名单），与走势页的平台现成 30 天序列口径不同。日期为采集当日的本地日期（<code>Asia/Shanghai</code>）；按日期、市场、品种筛选后分页展示，每页 50 条。</div>
       </div>
     </section>
 
