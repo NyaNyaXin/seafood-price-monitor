@@ -148,7 +148,7 @@ curl -s "localhost:3000/api/health?db=1"
 
 ## 三、看板（Nuxt 4 项目）
 
-需要 Node.js 22+ 与 **pnpm**（本项目唯一包管理器，版本锁在 `package.json` 的 `packageManager` 字段）：
+需要 Node.js 22.22.3+（或 24.15+ / 26+）与 **pnpm**（本项目唯一包管理器，版本锁在 `package.json` 的 `packageManager` 字段）：
 
 ```bash
 corepack enable            # 一次性：让 pnpm 按 packageManager 自动选版本

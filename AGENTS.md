@@ -24,7 +24,7 @@ scripts/fetch.py ──→ PostgreSQL ←── server/api/price-data.get.ts ─
 | 约定 | 说明 |
 |---|---|
 | **包管理器只有 pnpm** | `packageManager: pnpm@12.10.1`。禁止 npm/yarn，禁止生成 `package-lock.json` / `yarn.lock`（`.gitignore`+`.dockerignore` 已挡）。 |
-| **Node ≥ 22** | Nuxt 4 要求；`engines` 已声明。 |
+| **Node 22.22.3+ / 24.15+ / 26+** | Nuxt 4.7 的 `engines` 要求；已同步声明在 `package.json`。 |
 | **`ssr: false` 不能改** | ECharts/canvas 在 SSR 阶段会崩；数据由客户端 `useFetch` 取。 |
 | **不允许 JSON 中间层** | `public/data.json`、`data/data.js` 已删除。前端数据**只能**来自 `/api/price-data`。不要再"顺手导出个 json 给前端读"。 |
 | **参考数据只有一个源** | 品种清单 / 市场 / 冻品判定关键词 / 阈值都在 `shared/reference.json`，Python `scripts/config.py` 与 Node `server/api/price-data.get.ts` 共读。**禁止在任一侧硬编码副本**。 |
