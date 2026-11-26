@@ -77,14 +77,20 @@ const todayRows = computed(() => {
 
 const marketCount = computed(() => new Set(todayRows.value.map(r => r.market_id)).size)
 
-/** 当日异动最大的一条（按 |d1| 取），无对比数据时为 null */
-const topMover = computed(() => {
+/** 当日异动：涨幅最大与跌幅最大各一条（无对比数据时为 null） */
+const topUp = computed(() => {
   let best: (typeof todayRows.value)[number] | null = null
-  let bestAbs = 0
   for (const r of todayRows.value) {
-    if (r.d1 == null) continue
-    const a = Math.abs(r.d1)
-    if (a > bestAbs) { bestAbs = a; best = r }
+    if (r.d1 == null || r.d1 <= 0) continue
+    if (!best || r.d1 > (best.d1 ?? 0)) best = r
+  }
+  return best
+})
+const topDown = computed(() => {
+  let best: (typeof todayRows.value)[number] | null = null
+  for (const r of todayRows.value) {
+    if (r.d1 == null || r.d1 >= 0) continue
+    if (!best || r.d1 < (best.d1 ?? 0)) best = r
   }
   return best
 })
@@ -124,13 +130,22 @@ function chgText(v: number | null) {
     >
       <template #aside>
         <div class="feed">
-          <div class="feed-head"><span class="dot" />当日异动 · TOP MOVER</div>
-          <template v-if="topMover">
-            <div class="feed-main">
-              <span class="feed-name">{{ topMover.product_name }}</span>
-              <b class="feed-chg" :class="feedCls(topMover.d1)">{{ chgText(topMover.d1) }}</b>
+          <div class="feed-head"><span class="dot" />当日异动 · TOP MOVERS</div>
+          <template v-if="topUp || topDown">
+            <div v-if="topUp" class="feed-row">
+              <div class="feed-main">
+                <span class="feed-name"><em class="feed-tag up">涨</em>{{ topUp.product_name }}</span>
+                <b class="feed-chg" :class="feedCls(topUp.d1)">{{ chgText(topUp.d1) }}</b>
+              </div>
+              <div class="feed-sub">{{ topUp.market }} · {{ topUp.spec }} · {{ topUp.price.toFixed(2) }} 元/kg</div>
             </div>
-            <div class="feed-sub">{{ topMover.market }} · {{ topMover.spec }} · {{ topMover.price.toFixed(2) }} 元/kg</div>
+            <div v-if="topDown" class="feed-row">
+              <div class="feed-main">
+                <span class="feed-name"><em class="feed-tag down">跌</em>{{ topDown.product_name }}</span>
+                <b class="feed-chg" :class="feedCls(topDown.d1)">{{ chgText(topDown.d1) }}</b>
+              </div>
+              <div class="feed-sub">{{ topDown.market }} · {{ topDown.spec }} · {{ topDown.price.toFixed(2) }} 元/kg</div>
+            </div>
           </template>
           <template v-else>
             <div class="feed-main"><span class="feed-name">今日暂无异动</span></div>
@@ -217,7 +232,7 @@ function chgText(v: number | null) {
               <tr
                 v-for="(r, i) in todayRows"
                 :key="i"
-                :class="{ alert: r.alert, enter: i < 14 }"
+                :class="{ alert: r.alert, enter: i < 14, up: r.d1 != null && r.d1 > 0, down: r.d1 != null && r.d1 < 0 }"
                 :style="i < 14 ? { animationDelay: i * 18 + 'ms' } : undefined"
               >
                 <td><span class="mkt" :class="{ b: r.market_id === 538 }" :title="r.marketFull">{{ r.market }}</span></td>

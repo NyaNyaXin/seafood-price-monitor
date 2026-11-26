@@ -197,6 +197,13 @@ body{
 .feed-chg.flat{color:var(--ink3)}
 .feed-sub{font-size:10.5px;color:var(--ink3);margin-top:6px;white-space:nowrap;
   overflow:hidden;text-overflow:ellipsis}
+/* 涨/跌两条异动：第二条用细线分隔 */
+.feed-row + .feed-row{border-top:1px solid var(--rule);margin-top:8px;padding-top:8px}
+.feed-tag{display:inline-block;font-style:normal;font-family:var(--sans);font-size:8.5px;
+  font-weight:700;line-height:1.5;padding:0 3px;margin-right:5px;vertical-align:1px;
+  letter-spacing:.5px}
+.feed-tag.up{background:var(--up-bg);color:var(--up)}
+.feed-tag.down{background:var(--down-bg);color:var(--down)}
 
 /* ---------- 行情横条（原四张渐变卡） ---------- */
 .tape{display:grid;grid-template-columns:repeat(4,1fr);
@@ -367,8 +374,9 @@ th.num,td.num{text-align:right}
 .chg.flat{color:var(--ink3);background:transparent}
 tr.alert td{background:var(--alert-bg)}
 tr.alert td:first-child{box-shadow:inset 3px 0 0 var(--warn)}
-tr.alert .price::after{content:"▲";font-size:8px;color:var(--warn);margin-left:4px;
+tr.alert .price::after{content:"▲";font-size:8px;color:var(--up);margin-left:4px;
   vertical-align:super}
+tr.alert.down .price::after{content:"▼";color:var(--down)}
 .legend{font-size:11px;color:var(--ink3);margin-top:14px;padding-top:12px;
   border-top:1px solid var(--rule);line-height:1.8}
 .legend b.up{color:var(--up)}
