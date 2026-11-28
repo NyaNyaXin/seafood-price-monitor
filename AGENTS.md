@@ -162,6 +162,7 @@ SQL 占位符写 psycopg2 原生形式：位置参数 `%s`、命名参数 `%(nam
   - `pnpm-workspace.yaml` 的 `allowBuilds.esbuild` 必须为 `true`，否则 pnpm 12 跳过 esbuild 构建脚本。
   - 健康检查用 `node -e fetch(...)` 探 `/api/health?db=0`（slim 没有 curl/wget）。
 - **前端是构建产物**：改完代码要 `docker compose up -d --build`，HMR 只在 `pnpm dev` 存在。
+- **同机多项目**：服务器已有 `ledger-db` / `ledger-shared-net` 时，用 `docker-compose.server.yml` 覆盖（外部网络 + `WEB_PORT`），部署目录 `/opt/seafood-price-monitor`，一键 `bash scripts/deploy.sh`；**不要**另起数据库容器，也不要改动其他项目的服务。
 - 线上库建表 / 导种子：`init_pg.py` 连的是 `DB_*` 指向的库，在本机跑一次指过去即可（`DB_HOST=<线上IP> python scripts/init_pg.py`）。种子文件在 `scripts/seed/`，**随镜像走**（`.dockerignore` 排除了 `data/`，别把种子放那儿）。
 - systemd 单元只是裸机备选，别把 `deploy/systemd/*` 当主路径维护。
 

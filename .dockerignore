@@ -30,6 +30,8 @@ docs
 README.md
 deploy/systemd
 docker-compose.yml
+docker-compose.server.yml
+scripts/deploy.sh
 **/__pycache__
 **/*.pyc
 **/.DS_Store

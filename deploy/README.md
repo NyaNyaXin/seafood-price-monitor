@@ -258,6 +258,46 @@ location / {
 - **健康检查在 Dockerfile 里**：`/api/health?db=0` 只探进程，库挂了不会触发重启风暴。
 - **分服务**：Web 与采集各自重建，采集挂了不影响看板访问。
 
+### 10. 同机服务器：复用 ledger-db（本机已有 retail-ledger）
+
+服务器上已经跑着 `ledger-db`（PostgreSQL）与共享网络 `ledger-shared-net` 时，不要再起一套数据库，用覆盖文件加入同一网络即可：
+
+| 项 | 值 |
+|---|---|
+| 部署目录 | `/opt/seafood-price-monitor` |
+| compose 工程 | `seafood-price-monitor`（容器 `seafood-web` / `seafood-fetch`） |
+| 对外端口 | `38083`（避开同机 38080/38081/38082） |
+| 数据库 | `ledger-db:5432`，独立库 `seafood_price`、账号 `seafood` |
+| 网络 | 外部网络 `ledger-shared-net` |
+
+**首次准备**：
+
+```bash
+mkdir -p /opt/seafood-price-monitor && sudo chown "$USER" /opt/seafood-price-monitor
+git clone git@github.com:NyaNyaXin/seafood-price-monitor.git /opt/seafood-price-monitor
+cd /opt/seafood-price-monitor
+cp deploy/server.env.example .env
+vi .env        # 填 DB_PASSWORD、PG_ADMIN_PASSWORD；如需换端口改 WEB_PORT
+bash scripts/deploy.sh
+```
+
+- `deploy.sh` 只读检查 `ledger-db` / `ledger-shared-net`，**不会**启动或重建其他项目的容器；只创建 `seafood_price` 库与 `seafood` 账号。
+- `ledger-db` 容器内为 trust 认证时 `PG_ADMIN_PASSWORD` 可留空；生产上建议设密码，届时在 `.env` 填 `postgres` 密码即可。
+- 库表由采集容器首次运行时自动建（`init_schema`）；想先看到数据，可再手动跑一次采集：
+  `docker compose -f docker-compose.yml -f docker-compose.server.yml exec fetch python /app/scripts/fetch.py`
+- 云服务器安全组/防火墙需放行 TCP `38083`。
+
+**验证**：
+
+```bash
+curl -s "localhost:38083/api/health?db=1"
+curl -s localhost:38083/api/price-data | head -c 200
+```
+
+**重复部署**：服务器上 `bash scripts/deploy.sh` 即可（拉代码 → 重建 → 重启）。
+
+> 不使用覆盖文件时，`docker compose up` 仍是原来的通用配置（自建 `seafood` 网络、`DB_HOST` 可填宿主机或外部库）。
+
 ---
 
 ## 三、线上（不用 Docker 时）：Linux + systemd

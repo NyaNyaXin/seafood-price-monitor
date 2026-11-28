@@ -130,6 +130,7 @@ curl -s "localhost:3000/api/health?db=1"
 - 采集容器自带 `sleep 到下一个 07:00` 的调度循环，**不依赖 cron / systemd timer**；单次失败只记日志不退出。
 - 改代码后必须 `docker compose up -d --build`：前端是构建产物，HMR 只在 dev 模式存在。
 - 镜像里不含连接串，`DB_*` 全在运行期注入，同一个镜像可跨环境复用。
+- 同一台服务器已跑其他项目（复用 `ledger-db` / `ledger-shared-net`）时，用 `docker-compose.server.yml` + `bash scripts/deploy.sh` 部署，详见 [`deploy/README.md`](deploy/README.md) 第 10 小节。
 
 ## 二、日常使用
 

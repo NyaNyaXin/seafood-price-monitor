@@ -1,0 +1,26 @@
+# 同机服务器部署覆盖：复用服务器上已有的 ledger-shared-net 与 ledger-db，
+# 不新建数据库容器，也不改动其他项目的服务。
+#
+# 用法（服务器 /opt/seafood-price-monitor）：
+#   docker compose -f docker-compose.yml -f docker-compose.server.yml up -d --build
+# 或直接：bash scripts/deploy.sh
+#
+# 与基础 compose 的差异：
+#   - 对外端口改由 WEB_PORT（默认 38083）控制，避开同机 38080/38081/38082
+#   - 两个容器只加入外部共享网络 ledger-shared-net，DB_HOST 填 ledger-db
+
+services:
+  web:
+    ports:
+      - "${WEB_BIND:-0.0.0.0}:${WEB_PORT:-38083}:3000"
+    networks:
+      - ledger-shared
+
+  fetch:
+    networks:
+      - ledger-shared
+
+networks:
+  ledger-shared:
+    name: ledger-shared-net
+    external: true
