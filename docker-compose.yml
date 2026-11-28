@@ -61,8 +61,8 @@ services:
       DB_PASSWORD: ${DB_PASSWORD:-}
       DB_NAME: ${DB_NAME:-seafood_price}
       DB_CONNECT_TIMEOUT: ${DB_CONNECT_TIMEOUT:-8}
-      # 每天采集时间（容器本地时区）；首次启动是否立刻跑一次
-      FETCH_AT: ${FETCH_AT:-07:00}
+      # 每天采集时间（容器本地时区），可逗号分隔多个时间点
+      FETCH_AT: ${FETCH_AT:-12:00,17:00}
       RUN_ON_START: ${RUN_ON_START:-true}
     extra_hosts:
       - "host.docker.internal:host-gateway"

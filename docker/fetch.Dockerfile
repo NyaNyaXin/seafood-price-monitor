@@ -12,7 +12,7 @@ FROM python:3.11-slim
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     TZ=Asia/Shanghai \
-    FETCH_AT=07:00 \
+    FETCH_AT=12:00,17:00 \
     RUN_ON_START=true
 
 RUN apt-get update \

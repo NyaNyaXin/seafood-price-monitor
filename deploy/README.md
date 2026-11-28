@@ -20,7 +20,7 @@
 | `DB_CONNECT_TIMEOUT` | `8` | 秒 |
 | `TZ` | `Asia/Shanghai` | 采集日期/日志用容器本地时间，别改 UTC |
 | `WEB_BIND` / `WEB_PORT` | `0.0.0.0` / `3000` | Web 容器对外发布地址 |
-| `FETCH_AT` | `07:00` | 每天采集时刻（容器本地时间） |
+| `FETCH_AT` | `12:00,17:00` | 每天采集时刻，可逗号分隔多个时间点（容器本地时间） |
 | `RUN_ON_START` | `true` | 采集容器启动时先跑一次 |
 | `DOCKER_NETWORK` | `seafood-net` | compose 使用的网络名 |
 
@@ -85,7 +85,7 @@ python -c "import sys;sys.path.insert(0,'scripts');import db;c=db.connect();prin
 ```
 ┌─ seafood-web   (Nitro,  :3000) ─┐
 │                                 ├─→ 已有 PostgreSQL 容器（外部，不在本 compose）
-└─ seafood-fetch (Python, 07:00) ─┘
+└─ seafood-fetch (Python, 12:00/17:00) ─┘
 ```
 
 镜像里**不含任何数据库连接串**，`DB_*` 全在运行期注入，所以同一个镜像能搬到任何环境，换库只改 `.env`。

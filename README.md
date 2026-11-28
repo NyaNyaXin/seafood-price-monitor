@@ -116,18 +116,18 @@ python scripts\fetch.py --skip-list     # 只抓市场快照（约 10 秒，调�
   ```
 - 前置：本机 PostgreSQL 在跑（服务名类似 `postgresql-x64-17`），且 Python 装了 `psycopg2`（`python -m pip install -r scripts/requirements.txt`）。
 
-> 线上 Docker 的 `fetch` 容器仍自带每日循环（`FETCH_AT`，默认 07:00），与本机手动执行互不影响。
+> 线上 Docker 的 `fetch` 容器仍自带每日循环（`FETCH_AT`，默认 `12:00,17:00`），与本机手动执行互不影响。
 
 ### 3. 线上部署（Docker，推荐）
 
 ```bash
 cp deploy/docker.env.example .env     # 填 DB_HOST / DB_USER / DB_PASSWORD / DB_NAME
-docker compose up -d --build          # web(:3000) + fetch(每日 07:00 采集)
+docker compose up -d --build          # web(:3000) + fetch(每日 12:00/17:00 采集)
 curl -s "localhost:3000/api/health?db=1"
 ```
 
 - **PostgreSQL 不进 compose**：它已经在单独的容器里跑，compose 只负责连过去。三种连法（宿主机端口 / 共用容器网络 / 外部库）见 [`deploy/README.md`](deploy/README.md) 第二节。
-- 采集容器自带 `sleep 到下一个 07:00` 的调度循环，**不依赖 cron / systemd timer**；单次失败只记日志不退出。
+- 采集容器自带 `sleep 到下一个 12:00 / 17:00` 的调度循环，**不依赖 cron / systemd timer**；单次失败只记日志不退出。
 - 改代码后必须 `docker compose up -d --build`：前端是构建产物，HMR 只在 dev 模式存在。
 - 镜像里不含连接串，`DB_*` 全在运行期注入，同一个镜像可跨环境复用。
 - 同一台服务器已跑其他项目（复用 `ledger-db` / `ledger-shared-net`）时，用 `docker-compose.server.yml` + `bash scripts/deploy.sh` 部署，详见 [`deploy/README.md`](deploy/README.md) 第 10 小节。
@@ -238,7 +238,7 @@ pnpm dev                   # → http://localhost:3000
 | `docker-compose.yml` | ★ 线上入口：`web`（Nitro :3000）+ `fetch`（每日采集）+ 共享网络 + 日志/CSV 命名卷 |
 | `docker/web.Dockerfile` | 多阶段构建，运行层只带 `.output`，非 root，内置健康检查 |
 | `docker/fetch.Dockerfile` | Python 3.11 + psycopg2，只带 `scripts/` 与 `shared/` |
-| `docker/fetch/entrypoint.sh` | 每日调度循环（`FETCH_AT`，默认 07:00，容器本地时间） |
+| `docker/fetch/entrypoint.sh` | 每日调度循环（`FETCH_AT`，默认 `12:00,17:00`，容器本地时间） |
 | `deploy/docker.env.example` | `.env` 模板，含三种 PG 连接方式 |
 | `deploy/systemd/seafood-web.service` | 备选：裸机常驻（`node .output/server/index.mjs`，只监听 `127.0.0.1:3000`） |
 | `deploy/systemd/seafood-fetch.service` + `.timer` | 备选：裸机每天 07:00 采集（`Persistent=true` 补跑） |
