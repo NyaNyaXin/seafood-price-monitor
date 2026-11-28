@@ -15,6 +15,14 @@ ENV PYTHONUNBUFFERED=1 \
     FETCH_AT=12:00,17:00 \
     RUN_ON_START=true
 
+# 国内构建访问 deb.debian.org 极慢，换成腾讯云镜像（只替换源地址，不影响其他环境）
+RUN if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+      sed -i 's|deb.debian.org|mirrors.cloud.tencent.com|g' /etc/apt/sources.list.d/debian.sources; \
+    fi; \
+    if [ -f /etc/apt/sources.list ]; then \
+      sed -i 's|deb.debian.org|mirrors.cloud.tencent.com|g' /etc/apt/sources.list; \
+    fi
+
 RUN apt-get update \
  && apt-get install -y --no-install-recommends tzdata \
  && rm -rf /var/lib/apt/lists/* \

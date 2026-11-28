@@ -41,6 +41,14 @@ ENV NODE_ENV=production \
     TZ=Asia/Shanghai
 
 # tzdata 让日志时间与北京时间一致（slim 默认没有）；非 root 运行
+# 国内构建访问 deb.debian.org 极慢，换成腾讯云镜像（只替换源地址，不影响其他环境）
+RUN if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+      sed -i 's|deb.debian.org|mirrors.cloud.tencent.com|g' /etc/apt/sources.list.d/debian.sources; \
+    fi; \
+    if [ -f /etc/apt/sources.list ]; then \
+      sed -i 's|deb.debian.org|mirrors.cloud.tencent.com|g' /etc/apt/sources.list; \
+    fi
+
 RUN apt-get update \
  && apt-get install -y --no-install-recommends tzdata \
  && rm -rf /var/lib/apt/lists/* \
