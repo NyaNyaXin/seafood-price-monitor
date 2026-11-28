@@ -148,12 +148,12 @@ watch(pageCount, (n) => { if (page.value > n) page.value = n })
                 <td colspan="6" class="empty-row">没有符合当前筛选的记录，试试放宽日期、市场或品种条件</td>
               </tr>
               <tr v-for="(o, i) in hist" :key="i">
-                <td class="spec">{{ o.obs_date }}</td>
-                <td><span class="mkt" :class="{ b: o.market_id === 538 }" :title="fullMkt(o.market_id, meta)">{{ shortMkt(o.market_id, meta) }}</span></td>
-                <td class="prod">{{ o.product_name }}</td>
-                <td class="spec">{{ o.spec_name && o.spec_name !== '/' ? o.spec_name : '—' }}</td>
-                <td class="num"><span class="price">{{ o.price.toFixed(2) }}</span></td>
-                <td class="num"><span class="price-jin">{{ (o.price / 2).toFixed(2) }}</span></td>
+                <td class="spec" data-label="日期">{{ o.obs_date }}</td>
+                <td data-label="市场"><span class="mkt" :class="{ b: o.market_id === 538 }" :title="fullMkt(o.market_id, meta)">{{ shortMkt(o.market_id, meta) }}</span></td>
+                <td class="prod" data-label="品种">{{ o.product_name }}</td>
+                <td class="spec" data-label="规格">{{ o.spec_name && o.spec_name !== '/' ? o.spec_name : '—' }}</td>
+                <td class="num" data-label="价格"><span class="price">{{ o.price.toFixed(2) }}</span></td>
+                <td class="num" data-label="约合元/斤"><span class="price-jin">{{ (o.price / 2).toFixed(2) }}</span></td>
               </tr>
             </tbody>
           </table>

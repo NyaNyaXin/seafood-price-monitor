@@ -242,14 +242,14 @@ function chgText(v: number | null) {
                 :class="{ alert: r.alert, enter: i < ENTER_ROWS, up: r.d1 != null && r.d1 > 0, down: r.d1 != null && r.d1 < 0 }"
                 :style="i < ENTER_ROWS ? { animationDelay: i * 18 + 'ms' } : undefined"
               >
-                <td><span class="mkt" :class="{ b: r.market_id === 538 }" :title="r.marketFull">{{ r.market }}</span></td>
-                <td class="prod">{{ r.product_name }}</td>
-                <td class="spec">{{ r.spec }}</td>
-                <td class="num"><span class="price">{{ r.price.toFixed(2) }}</span></td>
-                <td class="num"><span class="price-prev">{{ r.prevPrice != null ? r.prevPrice.toFixed(2) : '—' }}</span></td>
-                <td class="num"><span class="price-jin">{{ (r.price / 2).toFixed(2) }}</span></td>
-                <td class="num"><span :class="chgClass(r.d1)">{{ chgText(r.d1) }}</span></td>
-                <td class="num"><span :class="chgClass(r.d7)">{{ chgText(r.d7) }}</span></td>
+                <td data-label="市场"><span class="mkt" :class="{ b: r.market_id === 538 }" :title="r.marketFull">{{ r.market }}</span></td>
+                <td class="prod" data-label="品种">{{ r.product_name }}</td>
+                <td class="spec" data-label="规格">{{ r.spec }}</td>
+                <td class="num" data-label="报价"><span class="price">{{ r.price.toFixed(2) }}</span></td>
+                <td class="num" data-label="上期"><span class="price-prev">{{ r.prevPrice != null ? r.prevPrice.toFixed(2) : '—' }}</span></td>
+                <td class="num" data-label="约合元/斤"><span class="price-jin">{{ (r.price / 2).toFixed(2) }}</span></td>
+                <td class="num" data-label="较上期"><span :class="chgClass(r.d1)">{{ chgText(r.d1) }}</span></td>
+                <td class="num" data-label="较7天前"><span :class="chgClass(r.d7)">{{ chgText(r.d7) }}</span></td>
               </tr>
             </tbody>
           </table>

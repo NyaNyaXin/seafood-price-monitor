@@ -528,17 +528,67 @@ tr.alert.down .price::after{content:"▼";color:var(--down)}
   .feed{max-width:none;width:100%}
 }
 @media(max-width:760px){
-  body{padding:12px 14px 44px}
-  .nav{height:auto;flex-wrap:wrap;row-gap:6px;padding-bottom:9px}
-  .nav-brand span{display:none}
-  .nav-links{width:100%;margin-left:0;justify-content:space-between}
-  .nav-links a{padding:6px 8px;font-size:11.5px}
-  .brand h1{font-size:28px}
+  /* 底部留出固定 Tab 的高度，避免最后一行被遮住 */
+  body{padding:12px 14px 78px}
+
+  /* 菜单：改为底部固定 Tab，四个入口等分，单手可达 */
+  .nav{position:fixed;left:0;right:0;bottom:0;top:auto;height:56px;
+    flex-wrap:nowrap;padding:0 4px;border-top:1.5px solid var(--ink);
+    border-bottom:none;z-index:50}
+  .nav-brand{display:none}
+  .nav-links{width:100%;margin:0;gap:0;justify-content:space-around}
+  .nav-links a{flex:1;height:56px;padding:0 2px;font-size:12px;
+    display:flex;align-items:center;justify-content:center;
+    border-bottom:none;border-top:2px solid transparent;white-space:nowrap}
+  .nav-links a:hover{color:var(--ink2);border-bottom-color:transparent}
+  .nav-links a.active{border-top-color:var(--ink);border-bottom-color:transparent;
+    background:var(--paper2)}
+
+  /* 筛选：全宽堆叠，控件不再并排挤压 */
+  .filters{flex-direction:column;align-items:stretch;gap:12px}
+  .fg{width:100%}
+  .fg select,.ui-select,.ui-combo,.spec-search{width:100%;min-width:0;max-width:none}
+  .seg{width:100%}
+  .seg button{flex:1;padding:0 6px;font-size:11.5px}
+  .dp-wrap{width:100%}
+  .dp-field{width:100%;min-width:0}
+
+  /* 表格卡片化：一行一张卡，标签在左、值在右 */
+  .tbl-wrap{overflow:visible}
+  table{display:block;width:100%}
+  thead{display:none}
+  tbody{display:block}
+  tbody tr{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;
+    border:1px solid var(--rule);border-left:3px solid var(--ink);
+    padding:8px 10px;margin-bottom:10px;background:var(--paper)}
+  tbody tr:hover td{background:transparent}
+  tbody tr.alert{background:var(--alert-bg);border-left-color:var(--warn)}
+  tbody tr.alert td{background:transparent}
+  tbody tr.alert td:first-child{box-shadow:none}
+  tbody td{display:flex;align-items:baseline;justify-content:space-between;
+    gap:8px;padding:3px 0;border:none;white-space:normal;text-align:left}
+  tbody td::before{content:attr(data-label);flex:none;font-family:var(--sans);
+    font-size:10px;color:var(--ink3);letter-spacing:.2px}
+  tbody td.num{text-align:left}
+  tbody tr.sk-row{border-left-color:var(--rule);padding:10px}
+  tbody tr.sk-row td{display:block;padding:2px 0}
+  tbody tr.sk-row td::before{content:none}
+  .empty-row{grid-column:1/-1;justify-content:center;padding:24px 10px!important}
+  .empty-row::before{content:none}
+
+  /* 规格卡片单列；图表降高；分页居中；日志抽屉避开底部 Tab */
+  .spec-grid{grid-template-columns:1fr}
+  .local-chart{height:240px}
+  .pager{justify-content:center}
+  .fetch-log{bottom:72px;right:14px;left:14px;width:auto}
+
+  .brand h1{font-size:26px}
   .brand .sub{font-size:11.5px}
-  .hero-foot{gap:4px 16px;font-size:9.5px}
-  #chart,.empty{height:300px}
-  .price{font-size:18px}
+  .hero-foot{gap:4px 14px;font-size:9.5px}
+  #chart,.empty{height:280px}
+  .price{font-size:19px}
   .card-body{padding:14px 0 16px}
+  .foot{padding-bottom:12px}
 }
 
 /* ============================================================
