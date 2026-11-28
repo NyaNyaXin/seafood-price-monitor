@@ -54,6 +54,9 @@ watch(range, () => { marketFilter.value = RANGE_ALL; productFilter.value = RANGE
 const upCnt = computed(() => todayRows.value.filter(r => r.d1 != null && r.d1 > 0).length)
 const downCnt = computed(() => todayRows.value.filter(r => r.d1 != null && r.d1 < 0).length)
 
+/** 首屏列表入场动画覆盖的行数：大屏一屏大约 25–35 行，取 30 */
+const ENTER_ROWS = 30
+
 const todayRows = computed(() => {
   const src = rangeRows.value
     .filter((o) => marketFilter.value === RANGE_ALL || String(o.market_id) === marketFilter.value)
@@ -236,8 +239,8 @@ function chgText(v: number | null) {
               <tr
                 v-for="(r, i) in todayRows"
                 :key="i"
-                :class="{ alert: r.alert, enter: i < 14, up: r.d1 != null && r.d1 > 0, down: r.d1 != null && r.d1 < 0 }"
-                :style="i < 14 ? { animationDelay: i * 18 + 'ms' } : undefined"
+                :class="{ alert: r.alert, enter: i < ENTER_ROWS, up: r.d1 != null && r.d1 > 0, down: r.d1 != null && r.d1 < 0 }"
+                :style="i < ENTER_ROWS ? { animationDelay: i * 18 + 'ms' } : undefined"
               >
                 <td><span class="mkt" :class="{ b: r.market_id === 538 }" :title="r.marketFull">{{ r.market }}</span></td>
                 <td class="prod">{{ r.product_name }}</td>
